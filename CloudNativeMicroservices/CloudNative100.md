@@ -1,5 +1,6 @@
 
 ![](images/NATD.png)  
+Update: January 28, 2017
 
 ##Introduction
 
@@ -70,7 +71,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
 ###Step 3: Create Developer Cloud Service Project
 
-- Click **New Project* to start the project create wizard.
+- Click **New Project** to start the project create wizard.
 - On Details screen enter the following data and click on **Next**.
 
     **Name =** `Twitter Feed Marketing Project`
@@ -99,7 +100,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
 ##Add Team Members (Owners) to the Project
 
-**Note:** As previously mentioned, **_if you are not allowed to have multiple users in your Corporate or Trial accounts, you will skip step 4._** When in subsequent steps/labs you are asked to log in as different users responsible for different roles, you will physically perform the tasks as the same user, but you should mentally assume the role of a different persona. 
+**Note:** As previously mentioned, ***if you are not allowed to have multiple users in your Corporate or Trial accounts, you will skip step 4.*** When in subsequent steps/labs you are asked to log in as different users responsible for different roles, you will physically perform the tasks as the same user, but you should mentally assume the role of a different persona. 
 
 ###Step 4: Add Team Owners to the Project
 
@@ -118,7 +119,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
 ##Create Issues for Twitter Feed Microservice
 
-In this step you are still connected in the logica role of the Project Manager, Lisa Jones
+In this step you are still connected in the logical role of the Project Manager, Lisa Jones
 
 ###Step 5: Create and Issue for the initial GIT Repository Creation
 
@@ -149,6 +150,8 @@ In this step you are still connected in the logica role of the Project Manager, 
 Note: Story point is an arbitrary measure used by Scrum teams. This is used to measure the effort required to implement a story. To learn more: `https://agilefaq.wordpress.com/2007/11/13/what-is-a-story-point/`
 
 ![](images/Picture17.png)
+
+###Step 6: Create Issue for Update Twitter Credentials
 
 **_Start Here_**
     

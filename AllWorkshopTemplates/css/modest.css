@@ -8,7 +8,7 @@
     text-shadow: none !important;
   }
 
-    
+
   a,
   a:visited {
     text-decoration: underline;
@@ -26,7 +26,7 @@
   a[href^="javascript:"]:after {
     content: "";
   }
-   
+
   pre,
   blockquote {
     border: 1px solid #999;
@@ -120,7 +120,7 @@ h3,
 .modest-h3,
 h4,
 .modest-h4 {
-  margin: 1.414rem 0rem;
+  margin: 1.414rem 0 .5rem;
   font-weight: inherit;
   line-height: 1.42;
 }
@@ -128,8 +128,8 @@ h4,
 
 h1,
 .modest-h1 {
-  margin-top: 2rem;
-  font-size: 2.527rem;
+  margin-top: 5;
+  font-size: 2.827rem;
   background-color:#c9d2d9;
 
 }
@@ -178,9 +178,8 @@ select,
 textarea {
   max-width: 100%;
   padding:1px;
-   --border:1px solid #021a40;
+   border:1px solid #021a40;
    margin: .4rem;
-    box-shadow: 10px 10px 5px #888888;
 
 }
 
@@ -201,20 +200,7 @@ body {
   max-width: 55rem;
   line-height: 1.45;
   padding: .25rem;
-  background:#fefefe;
-
 }
-
-strong {
-     font-family: 'Veranda', sans-serif ;
-     color:#123262;
-}
-
-em {
-     
-     color:red;
-}
-
 
 h1,
 h2,
@@ -226,7 +212,7 @@ h6 {
 }
 
 h1,
-h2 
+h2
 {
   margin-bottom: 1.15rem;
   padding-bottom: .5rem;
@@ -239,8 +225,8 @@ h3 {
 
 h1 {
     text-align: left;
-      border-bottom: 1px solid #fafafa;
-      border-top: 1px solid #fafafa;
+      border-bottom: 2px solid #fafafa;
+      border-top: 9px solid #fafafa;
 
 }
 
@@ -255,9 +241,8 @@ blockquote {
 
 pre,
 code {
-  background-color: #f3f3f3;
+  background-color: #fafafa;
   margin: .4rem;
 
 
 }
-

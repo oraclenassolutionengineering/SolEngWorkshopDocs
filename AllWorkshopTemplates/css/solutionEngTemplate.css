@@ -8,7 +8,7 @@
     text-shadow: none !important;
   }
 
-    
+
   a,
   a:visited {
     text-decoration: underline;
@@ -26,7 +26,7 @@
   a[href^="javascript:"]:after {
     content: "";
   }
-   
+
   pre,
   blockquote {
     border: 1px solid #999;
@@ -211,7 +211,7 @@ strong {
 }
 
 em {
-     
+
      color:red;
 }
 
@@ -226,7 +226,7 @@ h6 {
 }
 
 h1,
-h2 
+h2
 {
   margin-bottom: 1.15rem;
   padding-bottom: .5rem;
