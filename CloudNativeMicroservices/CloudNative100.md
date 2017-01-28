@@ -39,7 +39,9 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
     ![](images/Picture2.png)
 
 - Enter your identity domain and click **Go**
-**NOTE:** The **Identity Domain, User Name** and **Password** values will be given to you by the instructor.
+
+    **NOTE:** The **Identity Domain, User Name** and **Password** values will be given to you by the instructor.
+
     ![](images/Picture3.png)
     
 - You will be presented with a Dashboard displaying the various cloud services available to this account. 
