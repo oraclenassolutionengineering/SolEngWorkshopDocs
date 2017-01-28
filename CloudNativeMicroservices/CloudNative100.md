@@ -31,9 +31,11 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
     `https://cloud.oracle.com`
 
 - click **Sign In** in the upper right hand corner of the browser
+
     ![](images/Picture1.png)
 
 - **IMPORTANT** - Under my services, *ask your instructor* which **Region** to select from the drop down list, and click on the **My Services** button.
+
     ![](images/Picture2.png)
 
 - Enter your identity domain and click **Go**
@@ -41,9 +43,11 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
     ![](images/Picture3.png)
     
 - You will be presented with a Dashboard displaying the various cloud services available to this account. 
+
     ![](images/Picture4.png)
     
 - If all of your services are not visible, **click** on the **Customize Dashboard**, you can add services to the dashboard by clicking **Show.** If you do not want to see a specific service click **Hide**
+
     ![](images/Picture5.png)
     
 ###Step 2: Login to Developer Cloud Service
@@ -51,12 +55,15 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 Oracle Developer Cloud Service provides a complete development platform that streamlines team development processes and automates software delivery. The integrated platform includes an issue tracking system, agile development dashboards, code versioning and review platform, continuous integration and delivery automation, as well as team collaboration features such as wikis and live activity stream. With a rich web based dashboard and integration with popular development tools, Oracle Developer Cloud Service helps deliver better applications faster.
 
 - From the Cloud UI dashboard click on the **Developer** service. In our example, the Developer Cloud Service is named **developer99019**.
+
     ![](images/Picture6.png)
     
 - The Service Details page gives you a quick glance of the service status overview.
+
     ![](images/Picture7.png)
     
 - Click **Open Service Console** for the Oracle Developer Cloud Service. The Service Console will list all projects for which you are currently a member.
+
     ![](images/Picture8.png)
 
 ###Step 3: Create Developer Cloud Service Project
