@@ -38,7 +38,7 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
     ![](images/Picture2.png)
 
-- Enter your identity domain and click **Go**
+- Enter your identity domain and click **Go**.
 
     **NOTE:** The **Identity Domain, User Name** and **Password** values will be given to you by the instructor.
 
