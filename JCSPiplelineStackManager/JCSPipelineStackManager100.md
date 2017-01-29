@@ -81,9 +81,9 @@ Oracle Developer Cloud Service provides a complete development platform that str
     **Name:** `Alpha Office Product Catalog`
     **Description:** `Alpha Office Product Catalog`
     
-**Note:** A Private project will only be seen by you. A Shared project will be seen by all Developer Cloud users. In either case, users need to be added to a project in order to interact with the project.
+    **Note:** A Private project will only be seen by you. A Shared project will be seen by all Developer Cloud users. In either case, users need to be added to a project in order to interact with the project.
 
-![](images/Picture100-10.png)
+    ![](images/Picture100-10.png)
 
 - Leave default template set to **Empty Project** and click **Next**
 
