@@ -1,24 +1,55 @@
 
-![](images/NATD.png)  
+![](images/WorkshopHeader100.png)  
 Update: January 28, 2017
+
 
 ##Introduction
 
 
-Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
+Please direct comments to: Dennis Foley (john.doe@oracle.com)
 
 ##Objectives
-- xxxx
-    - xxxx
+- Objective 1
+    - Objective 1.1
+    - Objective 1.2
+- Objective 2
 
 ##Required Artifacts
 - The following lab requires an Oracle Public Cloud account that will be supplied by your instructor.
 
 
-#Header 1
+#First Section of the Workshop
 
-##Header 2
+##Short Description of this Section
 
-###Step 1: xx
-- task 1
+Any text to describe this section
+
+###Step 1: and description
+
+- Task within this step
+- Task in the step with a **Command** highlighted
+- Task with a request to enter something: `text to be entered`
+- Task with an image below. Notice the indentation of the image
+    ![](images/Picture100-1.png)
+    
+###Step 2: and description
+
+More notes, and this time with something ***strongly** emphasized.
+
+#Next major section
+
+##More text about that section
+
+Notes about the section if needed
+
+##Step 3: and a descrition of the step
+
+-- Task within the section, including and image ![](images/PictureUpArrow.png) inline 
+
+```
+a block of text
+or soure code
+```
+
+
 
