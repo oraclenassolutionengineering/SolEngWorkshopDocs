@@ -122,9 +122,9 @@ In this step you are still connected in the logical role of the Project Manager,
     
     **Description:** `Create Initial GIT Repository for Infrustructure and configure Build`
     
-    **Type: ** `Task`
+    **Type:** `Task`
     
-    **Owner: ** `Cloud Admin (or you, if another user is not available)`
+    **Owner:** `Cloud Admin (or you, if another user is not available)`
     
     **Story Points:** `1`
     
