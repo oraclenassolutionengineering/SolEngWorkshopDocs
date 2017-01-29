@@ -51,5 +51,11 @@ a block of text
 or soure code
 ```
 
+- Here is a tast with mutiple entry files. Notice the line after each entry
+
+**Enter this:" `this is some text`
+
+**Enter That:" `Here is some more text`
+
 
 

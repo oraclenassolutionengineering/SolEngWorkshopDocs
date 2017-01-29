@@ -79,6 +79,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 - On Details screen enter the following data and click on **Next**.
 
     **Name:** `Alpha Office Product Catalog`
+    
     **Description:** `Alpha Office Product Catalog`
     
     **Note:** A Private project will only be seen by you. A Shared project will be seen by all Developer Cloud users. In either case, users need to be added to a project in order to interact with the project.
@@ -118,10 +119,13 @@ In this step you are still connected in the logical role of the Project Manager,
     **Note:** no matter who you assign as the task “physical” owner, for the sake of this workshop, Bala Gupta will be the “logical” owner.
 
     **Summary:** `Create Initial GIT Repository for Infrustructure and configure Build`
+    
     **Description:** `Create Initial GIT Repository for Infrustructure and configure Build`
     
     **Type: ** `Task`
+    
     **Owner: ** `Cloud Admin (or you, if another user is not available)`
+    
     **Story Points:** `1`
     
     
@@ -138,10 +142,13 @@ https://agilefaq.wordpress.com/2007/11/13/what-is-a-story-point/
     **Note:** no matter who you assign as the task “physical” owner, for the sake of this workshop, ***Bala Gupta*** will be the “logical” owner.
 
     **Summary:** `Provision new Alpha Office Environment`
+    
     **Description:** `Provision new Alpha Office environment and increment the identifier`
     
     **Type:** `Task`
+    
     **Owner:** `Cloud Admin (or you, if another user is not available)`
+    
     **Story:**  `2`
 
     ![](images/Picture100-17.png)
@@ -155,10 +162,13 @@ https://agilefaq.wordpress.com/2007/11/13/what-is-a-story-point/
     **Note:** no matter who you assign as the task “physical” owner, for the sake of this workshop, ***John Dunbar*** will be the “logical” owner.
 
     **Summary:** `Create Initial GIT Repository for Alpha Office UI`
+    
     **Description:** `Create Initial GIT Repository for Alpha Office UI and setup Build and Deployment configuration`
     
     **Type:** `Task`
+    
     **Owner:** `Cloud Admin (or you, if another user is not available)`
+    
     **Story:**  `1`
 
     ![](images/Picture100-18.png)
@@ -170,10 +180,13 @@ https://agilefaq.wordpress.com/2007/11/13/what-is-a-story-point/
     **Note:** no matter who you assign as the task “physical” owner, for the sake of this workshop, ***John Dunbar*** will be the “logical” owner.
 
     **Summary:** `Add dollar sign in the display of the price`
+    
     **Description:** `Add dollar sign in the display of the price`
     
     **Type:** `Defect`
+    
     **Owner:** `Cloud Admin`
+    
     **Story:**  `2`
 
     ![](images/Picture100-19.png)
@@ -206,6 +219,7 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
 - Click **New Board** and enter the following data. When done click **Create**.
 
     **Name:** `AlphaOffice`
+    
     **Estimation:** `Story Points`
 
     ![](images/Picture100-22.png)
@@ -215,6 +229,7 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
 - We will now Create our first Sprint. Click **New Sprint**. Enter the following data and click **OK**.
 
     **Name:** `Sprint 1 - Initial development`
+    
     **Story Points:** `6`
     
     ![](images/Picture100-23.png)
