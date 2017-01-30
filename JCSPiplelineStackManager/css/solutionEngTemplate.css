@@ -129,22 +129,39 @@ h4,
 h1,
 .modest-h1 {
   margin-top: 2rem;
+  line-height: 2.7rem;
   font-size: 2.527rem;
   background-color:#c9d2d9;
+  font-weight: bold;
+  font-family: 'Tahoma', sans-serif;
+  color:#15325a;
+
+
+
+
 
 }
 
 h2,
 .modest-h2 {
   font-size: 1.999rem;
-  -- background-color:#c9d2d9;
+  font-weight: bold;
+  font-family: 'Tahoma', sans-serif;
+  color:#15325a;
+
 }
 
 h3,
 .modest-h3 {
-  font-size: 1.414rem;
-    font-style: italic;
-    background-color:#E0E8ED;
+  -- font-size: 1.414rem;
+  font-size: 1.4rem;
+  -- font-style: italic;
+  background-color:#E0E8ED;
+  font-weight: medium;
+  font-family: 'Tahoma', sans-serif;
+  color:#000000;
+
+
 }
 
 h4,
