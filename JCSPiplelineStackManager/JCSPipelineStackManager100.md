@@ -2,7 +2,7 @@
 ![](images/Picture100-title.png)  
 Update: January 29, 2017
 
-##Introduction
+## Introduction
 
 This is the first of several labs that are part of the **DevOps JCS Pipeline using Oracle Stack Manger workshop**. This workshop will walk you through the Software Development Lifecycle (SDLC) for a Java Cloud Service (JCS) project that go through Infrastructure as Code and deployment of Struts application.
 
@@ -11,21 +11,21 @@ You will take on 3 Personas during the workshop. The **Project Manager** Person
 
 Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
-##Objectives
+## Objectives
 - Create Initial Project
 - Create Issues / Task
 - Create Agile Board and initial Sprint
 - Add Issues to Sprint
 
-##Required Artifacts
+## Required Artifacts
 - The following lab requires an Oracle Public Cloud account that will be supplied by your instructor.
 
 
-#Create Developer Cloud Service Project
+# Create Developer Cloud Service Project
 
-##Create Developer Cloud Service Project
+## Create Developer Cloud Service Project
 
-###**STEP 1:** Login to your Oracle Cloud Account
+### **STEP 1:** Login to your Oracle Cloud Account
 - From any browser, go to the URL:
     `https://cloud.oracle.com`
 
@@ -57,7 +57,7 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
     ![](images/Picture100-6.png)
     
-###**STEP 2:** Login to Developer Cloud Service
+### **STEP 2:** Login to Developer Cloud Service
 
 Oracle Developer Cloud Service provides a complete development platform that streamlines team development processes and automates software delivery. The integrated platform includes an issue tracking system, agile development dashboards, code versioning and review platform, continuous integration and delivery automation, as well as team collaboration features such as wikis and live activity stream. With a rich web based dashboard and integration with popular development tools, Oracle Developer Cloud Service helps deliver better applications faster.
 
@@ -102,13 +102,13 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
     ![](images/Picture100-14.png)
 
-#Create Project Issues
+# Create Project Issues
 
-##Create Issues for the Opperations Pipeline
+## Create Issues for the Opperations Pipeline
 
 In this step you are still connected in the logical role of the Project Manager, ***Lisa Jones***
 
-###**STEP 4:** Create and Issue for the initial GIT Repository Creation
+### **STEP 4:** Create and Issue for the initial GIT Repository Creation
 
 - Click **Issues** on left hand navigation panel to display the Track Issues page.
 
@@ -135,7 +135,7 @@ https://agilefaq.wordpress.com/2007/11/13/what-is-a-story-point/
 
 ![](images/Picture100-16.png)
 
-###**STEP 5:** Create Issue for Provision New Alpha Office Environment
+### **STEP 5:** Create Issue for Provision New Alpha Office Environment
 
 - Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**. 
 
@@ -153,9 +153,9 @@ https://agilefaq.wordpress.com/2007/11/13/what-is-a-story-point/
 
     ![](images/Picture100-17.png)
 
-##Create Issues for Alpha Office UI
+## Create Issues for Alpha Office UI
 
-###**STEP 6:** Create Issue for initial GIT Repository creation and setup
+### **STEP 6:** Create Issue for initial GIT Repository creation and setup
 
 - Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**. 
 
@@ -173,7 +173,7 @@ https://agilefaq.wordpress.com/2007/11/13/what-is-a-story-point/
 
     ![](images/Picture100-18.png)
 
-###**STEP 7:** Create Issue for Displaying Price
+### **STEP 7:** Create Issue for Displaying Price
 
 - Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**. 
 
@@ -196,9 +196,9 @@ https://agilefaq.wordpress.com/2007/11/13/what-is-a-story-point/
     ![](images/Picture100-20.png)
 
     
-#Create Agile Board
+# Create Agile Board
 
-##Create Agile Board and Initial Sprint
+## Create Agile Board and Initial Sprint
 
 Before you start using the Agile methodology in Oracle Developer Cloud Service, it is important that you know the following key components of the Agile page.
 
@@ -211,7 +211,7 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
 - **Active Sprints view** – Lists all active Sprints of the Board and enables you to update an Issue status simply by dragging and dropping it to the respective status columns.
 - **Reports view** – select the Burndown Chart tab to display the amount of work left to do in a Sprint or use the Sprint Report tab to list open and completed Issues of a Sprint.
 
-###**STEP 8:** Create Agile Board
+### **STEP 8:** Create Agile Board
 - Click **Agile** on the Left Side Menu to display a page listing all existing Boards.
 
     ![](images/Picture100-21.png)
@@ -224,7 +224,7 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
 
     ![](images/Picture100-22.png)
 
-###**STEP 9:** Create Sprint
+### **STEP 9:** Create Sprint
 
 - We will now Create our first Sprint. Click **New Sprint**. Enter the following data and click **OK**.
 
@@ -234,7 +234,7 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
     
     ![](images/Picture100-23.png)
 
-###**STEP 10:** Add Backlog Issues to Sprint
+### **STEP 10:** Add Backlog Issues to Sprint
 
 - Next we want to add the backlog issues to the newly created spring. **Drag and drop* the **4 issues** one at a time upward onto the **Sprint 1** section. This will add the issues to the sprint.
 
@@ -242,9 +242,9 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
 
     ![](images/Picture100-25.png)
 
-##Customize Agile Board
+## Customize Agile Board
 
-###**STEP 11:** Customize Board
+### **STEP 11:** Customize Board
 
 In the following step you will customize an Agile Board, and add a new Progress State. If you desire more information about States and Conditions, the following link will provide a tutorial:
 http://www.oracle.com/webfolder/technetwork/tutorials/obe/cloud/developer/AgileDevelopment/AgileDevelopment.html

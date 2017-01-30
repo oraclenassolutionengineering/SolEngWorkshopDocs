@@ -2,7 +2,7 @@
 ![](images/NATD.png)  
 Update: January 28, 2017
 
-##Introduction
+## Introduction
 
 This is the first of several labs that are part of the **Oracle Public Cloud DevOps Cloud Native Microservices workshop.** This workshop will walk you through the Software Development Lifecycle (SDLC) for a Cloud Native project that will create and use several Microservices.
 
@@ -10,7 +10,7 @@ You will take on 3 Personas during the workshop. The **Project Manager Persona*
 
 Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
-##Objectives
+## Objectives
 - Create Initial Project
     - Add Users to Project
 - Create Product Issues
@@ -19,15 +19,15 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 - Create Agile Board and initial Sprint
 - Add Issues to Sprint
 
-##Required Artifacts
+## Required Artifacts
 - The following lab requires an Oracle Public Cloud account that will be supplied by your instructor.
 
 
-#Create Twitter Feed Marketing Project
+# Create Twitter Feed Marketing Project
 
-##Create Developer Cloud Service Project
+## Create Developer Cloud Service Project
 
-###Step 1: Login to your Oracle Cloud Account
+### Step 1: Login to your Oracle Cloud Account
 - From any browser, go to the URL:
     `https://cloud.oracle.com`
 
@@ -53,7 +53,7 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
     ![](images/Picture5.png)
     
-###Step 2: Login to Developer Cloud Service
+### Step 2: Login to Developer Cloud Service
 
 Oracle Developer Cloud Service provides a complete development platform that streamlines team development processes and automates software delivery. The integrated platform includes an issue tracking system, agile development dashboards, code versioning and review platform, continuous integration and delivery automation, as well as team collaboration features such as wikis and live activity stream. With a rich web based dashboard and integration with popular development tools, Oracle Developer Cloud Service helps deliver better applications faster.
 
@@ -69,7 +69,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
     ![](images/Picture8.png)
 
-###Step 3: Create Developer Cloud Service Project
+### Step 3: Create Developer Cloud Service Project
 
 - Click **New Project** to start the project create wizard.
 - On Details screen enter the following data and click on **Next**.
@@ -98,11 +98,11 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
 ![](images/Picture13.png)
 
-##Add Team Members (Owners) to the Project
+## Add Team Members (Owners) to the Project
 
 **Note:** As previously mentioned, ***if you are not allowed to have multiple users in your Corporate or Trial accounts, you will skip step 4.*** When in subsequent steps/labs you are asked to log in as different users responsible for different roles, you will physically perform the tasks as the same user, but you should mentally assume the role of a different persona. 
 
-###Step 4: Add Team Owners to the Project
+### Step 4: Add Team Owners to the Project
 
 - Click on the **Team** icon ![](images/TeamIcon.png) found on the far right side of the window.
 - To add new Team Members, click **New Member**
@@ -115,13 +115,13 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
 ![](images/Picture15.png)
 
-#Create Product Issues
+# Create Product Issues
 
-##Create Issues for Twitter Feed Microservice
+## Create Issues for Twitter Feed Microservice
 
 In this step you are still connected in the logical role of the Project Manager, Lisa Jones
 
-###Step 5: Create and Issue for the initial GIT Repository Creation
+### Step 5: Create and Issue for the initial GIT Repository Creation
 
 - Click **Issues** on left hand navigation panel to display the Track Issues page.
 
@@ -151,13 +151,13 @@ Note: Story point is an arbitrary measure used by Scrum teams. This is used to m
 
 ![](images/Picture17.png)
 
-###Step 6: Create Issue for Update Twitter Credentials
+### Step 6: Create Issue for Update Twitter Credentials
 
 **_Start Here_**
     
-#Create Agile Board
+# Create Agile Board
 
-##Create Agile Board and Initial Sprint
+## Create Agile Board and Initial Sprint
 
 Before you start using the Agile methodology in Oracle Developer Cloud Service, it is important that you know the following key components of the Agile page.
 

@@ -5,29 +5,29 @@
 Update: January 28, 2017
 
 
-##Introduction
+## Introduction
 
 Information about the workshop
 
 Please direct comments to: Dennis Foley (john.doe@oracle.com)
 
-##Objectives
+## Objectives
 - Objective 1
     - Objective 1.1
     - Objective 1.2
 - Objective 2
 
-##Required Artifacts
+## Required Artifacts
 - The following lab requires an Oracle Public Cloud account that will be supplied by your instructor.
 
 
-#First Section of the Workshop
+# First Section of the Workshop
 
-##Short Description of this Section
+## Short Description of this Section
 
 Any text to describe this section
 
-###**STEP 1:** and description
+### **STEP 1:** and description
 
 - Task within this step
 - Task in the step with a **Command** highlighted
@@ -36,17 +36,17 @@ Any text to describe this section
 
     ![](images/Picture100-1.png)
     
-###**STEP 2:** and description
+### **STEP 2:** and description
 
 More notes, and this time with something ***strongly*** emphasized.
 
-#Next major section
+# Next major section
 
-##More text about that section
+## More text about that section
 
 Notes about the section if needed
 
-##**STEP 3:** and a descrition of the step
+## **STEP 3:** and a descrition of the step
 
 -- Task within the section, including and image ![](images/PictureUpArrow.png) inline 
 
