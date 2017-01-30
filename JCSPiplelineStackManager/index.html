@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Lab Guides</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link type="text/css" rel="stylesheet" href="https://oraclenassolutionengineering.github.io/JCSPiplelineStackManager/css/solutionEngTemplate.css">
+
+
+</head>
+<body>
+    <div id='mdContent'>
+
+    </div>
+<script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
+<script src='https://cdn.rawgit.com/showdownjs/showdown/1.6.2/dist/showdown.min.js'></script>
+
+<script type="text/javascript">
+    function replaceAll(str, find, replace) {
+        return str.replace(new RegExp(find, 'g'), replace);
+    }
+
+  var mdContent = '';  $.ajax('https://oraclenassolutionengineering.github.io/JCSPiplelineStackManager/JCSPipelineStackManager100.md')
+    .done(function(msg) {
+        mdContent = msg;
+      mdContent = replaceAll(mdContent, /\(images\//g, '(https://oraclenassolutionengineering.github.io/JCSPiplelineStackManager/images/');
+      var converter = new showdown.Converter(),
+    text      = mdContent,
+    html      = converter.makeHtml(text);
+
+      $('#mdContent').replaceWith(html);
+    });
+
+</script>
+</body>
+</html>
