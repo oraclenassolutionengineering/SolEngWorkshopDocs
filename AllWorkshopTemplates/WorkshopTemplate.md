@@ -1,10 +1,13 @@
 
 ![](images/WorkshopHeader100.png)  
+
+
 Update: January 28, 2017
 
 
 ##Introduction
 
+Information about the workshop
 
 Please direct comments to: Dennis Foley (john.doe@oracle.com)
 
@@ -24,17 +27,18 @@ Please direct comments to: Dennis Foley (john.doe@oracle.com)
 
 Any text to describe this section
 
-###Step 1: and description
+###**STEP 1:** and description
 
 - Task within this step
 - Task in the step with a **Command** highlighted
 - Task with a request to enter something: `text to be entered`
 - Task with an image below. Notice the indentation of the image
+
     ![](images/Picture100-1.png)
     
-###Step 2: and description
+###**STEP 2:** and description
 
-More notes, and this time with something ***strongly** emphasized.
+More notes, and this time with something ***strongly*** emphasized.
 
 #Next major section
 
@@ -42,7 +46,7 @@ More notes, and this time with something ***strongly** emphasized.
 
 Notes about the section if needed
 
-##Step 3: and a descrition of the step
+##**STEP 3:** and a descrition of the step
 
 -- Task within the section, including and image ![](images/PictureUpArrow.png) inline 
 
