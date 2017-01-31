@@ -27,47 +27,53 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
 ## Create Developer Cloud Service Project
 
-### Step 1: Login to your Oracle Cloud Account
+### STEP 1: Login to your Oracle Cloud Account
 - From any browser, go to the URL:
     `https://cloud.oracle.com`
 
 - click **Sign In** in the upper right hand corner of the browser
 
-    ![](images/Picture1.png)
+    ![](images/Picture100-1.png)
 
-- **IMPORTANT** - Under my services, *ask your instructor* which **Region** to select from the drop down list, and click on the **My Services** button.
+- **IMPORTANT** - Under my services, ***ask your instructor*** which **Region** to select from the drop down list, and click on the **My Services** button.
 
-    ![](images/Picture2.png)
+    ![](images/Picture100-2.png)
 
 - Enter your identity domain and click **Go**.
 
     **NOTE:** The **Identity Domain, User Name** and **Password** values will be given to you by the instructor.
 
-    ![](images/Picture3.png)
-    
-- You will be presented with a Dashboard displaying the various cloud services available to this account. 
+    ![](images/Picture100-3.png)
 
-    ![](images/Picture4.png)
-    
-- If all of your services are not visible, **click** on the **Customize Dashboard**, you can add services to the dashboard by clicking **Show.** If you do not want to see a specific service click **Hide**
+- Once your Identity Domain is set, enter your User Name and Password and click **Sign In**
 
-    ![](images/Picture5.png)
-    
+  **NOTE:** For this lab you will assume the role of Project Manager ***Lisa Jones***. If your own Corporate or Trial account does not easily allow you to have multiple users, simply log into the account using your credentials, and when required you can make the “logical” change from Project Manager to other personas, even though you will always be logged in as the same user.
+
+  ![](images/Picture100-3.5.png)
+
+- You will be presented with a Dashboard displaying the various cloud services available to this account.
+
+  ![](images/Picture100-4.png)
+
+- If all your services are not visible, **click** on the **Customize Dashboard**, you can add services to the dashboard by clicking **Show.** If you do not want to see a specific service click **Hide**
+
+    ![](images/Picture100-5.png)
+
 ### Step 2: Login to Developer Cloud Service
 
 Oracle Developer Cloud Service provides a complete development platform that streamlines team development processes and automates software delivery. The integrated platform includes an issue tracking system, agile development dashboards, code versioning and review platform, continuous integration and delivery automation, as well as team collaboration features such as wikis and live activity stream. With a rich web based dashboard and integration with popular development tools, Oracle Developer Cloud Service helps deliver better applications faster.
 
 - From the Cloud UI dashboard click on the **Developer** service. In our example, the Developer Cloud Service is named **developer99019**.
 
-    ![](images/Picture6.png)
-    
+    ![](images/Picture100-6.png)
+
 - The Service Details page gives you a quick glance of the service status overview.
 
-    ![](images/Picture7.png)
-    
+    ![](images/Picture100-7.png)
+
 - Click **Open Service Console** for the Oracle Developer Cloud Service. The Service Console will list all projects for which you are currently a member.
 
-    ![](images/Picture8.png)
+    ![](images/Picture100-8.png)
 
 ### Step 3: Create Developer Cloud Service Project
 
@@ -77,84 +83,126 @@ Oracle Developer Cloud Service provides a complete development platform that str
     **Name =** `Twitter Feed Marketing Project`
 
     **Description =** `Project to gather and analyze twitter data`
-    
-**Note:** A Private project will only be seen by you. A Shared project will be seen by all Developer Cloud users. In either case, users need to be added to a project in order to interact with the project.
 
-![](images/Picture9.png)
+    **Note:** A Private project will only be seen by you. A Shared project will be seen by all Developer Cloud users. In either case, users need to be added to a project in order to interact with the project.
+
+    ![](images/Picture100-9.png)
 
 - Leave default template set to **Empty Project** and click **Next**
 
-![](images/Picture10.png)
+  ![](images/Picture100-10.png)
 
 - Select your **Wiki Markup** preference to **MARKDOWN** and click **Finish**.
 
-![](images/Picture11.png)
+  ![](images/Picture100-11.png)
 
 - The Project Creation will take about 1 minute.
 
-![](images/Picture12.png)
+  ![](images/Picture100-12.png)
 
 - You now have a new project, in which you can manage your software development.
 
-![](images/Picture13.png)
+  ![](images/Picture100-13.png)
 
 ## Add Team Members (Owners) to the Project
 
-**Note:** As previously mentioned, ***if you are not allowed to have multiple users in your Corporate or Trial accounts, you will skip step 4.*** When in subsequent steps/labs you are asked to log in as different users responsible for different roles, you will physically perform the tasks as the same user, but you should mentally assume the role of a different persona. 
+**Note:** As previously mentioned, ***if you are not allowed to have multiple users in your Corporate or Trial accounts, you will skip step 4.*** When in subsequent steps/labs you are asked to log in as different users responsible for different roles, you will physically perform the tasks as the same user, but you should mentally assume the role of a different persona.
 
 ### Step 4: Add Team Owners to the Project
 
 - Click on the **Team** icon ![](images/TeamIcon.png) found on the far right side of the window.
 - To add new Team Members, click **New Member**
 
-![](images/Picture14.png)
+  ![](images/Picture100-14.png)
 
 - Set the Role to **Owner**, and enter the Username **bala.gupta**, and then click **Add**
 
 - Repeat the process for Username **john.dunbar**. When completed your team should consist of 3 members.
 
-![](images/Picture15.png)
+  ![](images/Picture100-15.png)
 
 # Create Product Issues
 
 ## Create Issues for Twitter Feed Microservice
 
-In this step you are still connected in the logical role of the Project Manager, Lisa Jones
+In this step you are still connected in the logical role of the Project Manager, ***Lisa Jones***.
 
 ### Step 5: Create and Issue for the initial GIT Repository Creation
 
 - Click **Issues** on left hand navigation panel to display the Track Issues page.
 
-    ![](images/Picture16.png)
+    ![](images/Picture100-16.png)
 
-- Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**. 
+- Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**.
 
-    **Note:** no matter who you assign as the task “physical” owner, for the sake of this workshop, Bala Gupta will be the “logical” owner. The same concept holds true for other assignments made in this lab.
+    **Note:** no matter who you assign as the task “physical” owner, for the sake of this workshop, **Bala Gupta** will be the “logical” owner. The same concept holds true for other assignments made in this lab.
 
     **Summary:**
     `Create Initial GIT Repository for Twitter Feed Service`
-    
+
     **Description:**
     `Create Initial GIT Repository for Twitter Feed Service`
-    
+
     **Type =** `Task`
     **Owner =** `Bala Gupta (or you, if another user is not available)`
     **Story Points** = `1`
-    
-    ```javascript
-    // Example
-    var s = "JavaScript syntax highlighting";
-    alert(s);
-    ```
- 
-Note: Story point is an arbitrary measure used by Scrum teams. This is used to measure the effort required to implement a story. To learn more: `https://agilefaq.wordpress.com/2007/11/13/what-is-a-story-point/`
 
-![](images/Picture17.png)
+    Note: Story point is an arbitrary measure used by Scrum teams. This is used to measure the effort required to implement a story. To learn more: https://agilefaq.wordpress.com/2007/11/13/what-is-a-story-point/
+
+    ![](images/Picture100-17.png)
 
 ### Step 6: Create Issue for Update Twitter Credentials
 
-**_Start Here_**
-    
+- Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**.
+
+  **Summary:** `Create Filter on Twitter Feed`
+
+  **Description:** `Create Filter to allow user to supply text to reduce the amount of data returned by the Twitter feed`
+
+  **Type:** `Feature`
+
+  **Owner:** `Bala Gupta (or you if another user is not available)`
+
+  **Story Points:** `2`
+
+  ![](images/Picture100-18.png)
+
+### Step 7: Create Issue for initial GIT Repository creation
+
+- Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**.
+
+  **Summary:** `Create Initial GIT Repository for Twitter Feed Marketing UI`
+
+  **Description:** `Create Initial GIT Repository for Twitter Feed Marketing UI`
+
+  **Type:** `Task`
+
+  **Owner:** `John Dunbar (or you if another user is not available)`
+
+  **Story Points:** `1`
+
+  ![](images/Picture100-19.png)
+
+### Step 8: Step 1:	Create Issue for Displaying Twitter Feed
+
+- Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**.
+
+  **Summary:** `Display Twitter Feed in Table Format`
+
+  **Description:** `Display Twitter Feed in Table Format`
+
+  **Type:** `Feature`
+
+  **Owner:** `John Dunbar`
+
+  **Story Points:** `2`
+
+  ![](images/Picture100-20.png)
+
+- Click ![](images/Picture100-21.png) on the **left side** of the window, or click on the **Issues** menu option to view all newly created issues.
+
+  ![](images/Picture100-22.png)
+
 # Create Agile Board
 
 ## Create Agile Board and Initial Sprint
@@ -170,3 +218,81 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
 - **Active Sprints view** – Lists all active Sprints of the Board and enables you to update an Issue status simply by dragging and dropping it to the respective status columns.
 - **Reports view** – select the Burndown Chart tab to display the amount of work left to do in a Sprint or use the Sprint Report tab to list open and completed Issues of a Sprint.
 
+###Step 9: Create Agile Board
+
+- Click **Agile** on the Left Side Menu to display a page listing all existing Boards
+
+  ![](images/Picture100-23.png)
+
+- Click **New Board** and enter the following data. When done click **Create**.
+
+  **Name:** `Microservices`
+
+  **Estimation:** `Story Points`
+
+  ![](images/Picture100-24.png)
+
+### Step 10: Create Sprint
+- We will now create our first Sprint. Click **New Sprint**. Enter the following data and click **OK.**
+
+  **Name:** `Sprint 1 - Initial Development`
+
+  **Story Points:** `6`
+
+  ![](images/Picture100-25.png)
+
+### Step 1:	Add Backlog Issues to Sprint
+
+- Next we want to add the backlog issues to the newly created spring. **Drag and drop** the **4 issues** one at a time upward onto the **Sprint 1** section. This will add the issues to the sprint.
+
+  ![](images/Picture100-26.png)
+
+  ![](images/Picture100-27.png)
+
+## Customize Agile Board
+
+### Step 12: Customize Board
+
+In the following step you will customize an Agile Board, and add a new Progress State. If you desire more information about States and Conditions, the following link will provide a tutorial: http://www.oracle.com/webfolder/technetwork/tutorials/obe/cloud/developer/AgileDevelopment/AgileDevelopment.html
+
+- Now we will show you how you can customize your board. In the right hand side click **Board -> Configure**
+
+  ![](images/Picture100-28.png)
+
+  **Note**: Before we create a new progress state, we want to un-assign some of the conditions that will be used in the new state. You can’t add new conditions or removed conditions, however, you can redefine progress states to suit your project’s needs and move conditions from one state to another. A large number of conditions are assigned to the Completed state by default.
+
+- Click on **:Progress States**: then click **:Completed**: state. In the lower left panel of the window, scroll down the conditions and select all the **:RESOLVED conditions**:.  Click ![](images/PictureGreater.png) to move them over to Unassigned Conditions panel
+
+  ![](images/Picture100-29.png)
+
+- Click **:New Progress State**:.  Change name to **:Verify Code**:. We will use this new State for performing QA and Testing.
+
+  ![](images/Picture100-30.png)
+
+- Highlight all the **:RESOLVED**: unassigned conditions, and click ![](images/PictureLess.png) to move them over to the Conditions column.
+
+  ![](images/Picture100-31.png)
+
+- With **:Verify Code**: highlighted, click ![](images/PictureUpArrow.png) to move **:Verify Code**: above the Completed Process State.
+
+  ![](images/Picture100-32.png)
+
+- Click **Save** to persist change.
+
+  ![](images/Picture100-33.png)
+
+### Step 13: Start Sprint
+
+- Click **Start Sprint.** Leave the defaults and click **Start**
+
+  ![](images/Picture100-34.png)
+
+- Now click on **Active Sprints** to view the Sprint Dashboard
+
+  ![](images/Picture100-35.png)
+
+- Click on the **Reports** button to view the Burndown and Sprint reports.
+
+  ![](images/Picture100-36.png)
+
+- You are now ready to move to the next lab.
