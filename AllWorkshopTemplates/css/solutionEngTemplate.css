@@ -292,3 +292,10 @@ div {
     margin: 0 auto;
     padding-top: 50px
 }
+
+@media (max-width: 32rem) {
+    #introduction {
+        width: 90%;    
+    }
+    
+}
