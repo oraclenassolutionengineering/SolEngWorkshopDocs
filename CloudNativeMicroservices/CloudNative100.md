@@ -80,9 +80,9 @@ Oracle Developer Cloud Service provides a complete development platform that str
 - Click **New Project** to start the project create wizard.
 - On Details screen enter the following data and click on **Next**.
 
-    **Name =** `Twitter Feed Marketing Project`
+    **Name:** `Twitter Feed Marketing Project`
 
-    **Description =** `Project to gather and analyze twitter data`
+    **Description:** `Project to gather and analyze twitter data`
 
     **Note:** A Private project will only be seen by you. A Shared project will be seen by all Developer Cloud users. In either case, users need to be added to a project in order to interact with the project.
 
@@ -110,7 +110,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
 ### Step 4: Add Team Owners to the Project
 
-- Click on the **Team** icon ![](images/TeamIcon.png) found on the far right side of the window.
+- Click on the **Team** icon ![](images/100/TeamIcon.png) found on the far right side of the window.
 - To add new Team Members, click **New Member**
 
     ![](images/100/Picture100-14.png)
@@ -143,9 +143,9 @@ In this step you are still connected in the logical role of the Project Manager,
     **Description:**
     `Create Initial GIT Repository for Twitter Feed Service`
 
-    **Type =** `Task`
-    **Owner =** `Bala Gupta (or you, if another user is not available)`
-    **Story Points** = `1`
+    **Type:** `Task`
+    **Owner:** `Bala Gupta (or you, if another user is not available)`
+    **Story Points:** `1`
 
     Note: Story point is an arbitrary measure used by Scrum teams. This is used to measure the effort required to implement a story. To learn more: https://agilefaq.wordpress.com/2007/11/13/what-is-a-story-point/
 
