@@ -118,6 +118,21 @@
                     $scope.htmlContent = html;
                     lab.htmlContent = html;
                     $scope.selection.lab = true;
+                    setTimeout(function() {
+//                        $("h1").nextUntil("h1").hide();
+//                        $("h2").nextUntil("h1, h2, h3").hide();
+                        $("#labguide h3").nextUntil("#labguide h1, #labguide h2, #labguide h3").hide();
+//                        $("h1").click(function() {
+//                            $(this).nextUntil("h1").toggle();
+//                        });
+//                        $("h2").click(function() {
+//                            $(this).nextUntil("h1, h2").toggle();
+//                        });
+                        $("#labguide h3").click(function() {
+                            $(this).nextUntil("#labguide h1, #labguide h2, #labguide h3").toggle();
+                        });
+                        
+                    }, 1000);
 
                 }, function(msg) {
                     console.log('Error getting lab guide markdown!');
@@ -141,6 +156,7 @@
     function replaceAll(str, find, replace) {
         return str.replace(new RegExp(find, 'g'), replace);
     }
+    
     
 //    var mdContent = '';  
 //    $.ajax('JCSPipelineStackManager100.md')

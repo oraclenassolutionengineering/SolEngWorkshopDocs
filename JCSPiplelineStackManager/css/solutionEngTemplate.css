@@ -140,7 +140,7 @@ body {
   font-weight: bold;
   font-family: 'Tahoma', sans-serif;
   color:#15325a;
-
+  padding: 10px;
 
 
 
@@ -153,7 +153,7 @@ body {
   font-weight: bold;
   font-family: 'Tahoma', sans-serif;
   color:#15325a;
-
+  margin-left: 15px;
 }
 
 #labguide h3,
@@ -162,7 +162,9 @@ body {
   background-color:#E0E8ED;
   font-weight: medium;
   font-family: 'Tahoma', sans-serif;
-  color:#000000;
+  color:#000000;    
+    padding: 5px;
+    margin-left: 25px;
 
 
 }
@@ -261,12 +263,17 @@ html {
     text-align: left;
       border-bottom: 1px solid #fafafa;
       border-top: 1px solid #fafafa;
-
+/*    cursor: pointer;*/
 }
 
 #labguide h2,
 #labguide h3 {
     text-align: left;
+    
+}
+
+#labguide h3 {
+    cursor: pointer;
 }
 
 #labguide blockquote {
