@@ -49,11 +49,11 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
   **NOTE:** For this lab you will assume the role of Project Manager ***Lisa Jones***. If your own Corporate or Trial account does not easily allow you to have multiple users, simply log into the account using your credentials, and when required you can make the “logical” change from Project Manager to other personas, even though you will always be logged in as the same user.
 
-  ![](images/100/Picture100-3.5.png)
+    ![](images/100/Picture100-3.5.png)
 
 - You will be presented with a Dashboard displaying the various cloud services available to this account.
 
-  ![](images/100/Picture100-4.png)
+    ![](images/100/Picture100-4.png)
 
 - If all your services are not visible, **click** on the **Customize Dashboard**, you can add services to the dashboard by clicking **Show.** If you do not want to see a specific service click **Hide**
 
@@ -90,19 +90,19 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
 - Leave default template set to **Empty Project** and click **Next**
 
-  ![](images/100/Picture100-10.png)
+    ![](images/100/Picture100-10.png)
 
 - Select your **Wiki Markup** preference to **MARKDOWN** and click **Finish**.
 
-  ![](images/100/Picture100-11.png)
+    ![](images/100/Picture100-11.png)
 
 - The Project Creation will take about 1 minute.
 
-  ![](images/100/Picture100-12.png)
+    ![](images/100/Picture100-12.png)
 
 - You now have a new project, in which you can manage your software development.
 
-  ![](images/100/Picture100-13.png)
+    ![](images/100/Picture100-13.png)
 
 ## Add Team Members (Owners) to the Project
 
@@ -113,13 +113,13 @@ Oracle Developer Cloud Service provides a complete development platform that str
 - Click on the **Team** icon ![](images/TeamIcon.png) found on the far right side of the window.
 - To add new Team Members, click **New Member**
 
-  ![](images/100/Picture100-14.png)
+    ![](images/100/Picture100-14.png)
 
 - Set the Role to **Owner**, and enter the Username **bala.gupta**, and then click **Add**
 
 - Repeat the process for Username **john.dunbar**. When completed your team should consist of 3 members.
 
-  ![](images/100/Picture100-15.png)
+    ![](images/100/Picture100-15.png)
 
 # Create Product Issues
 
@@ -155,53 +155,53 @@ In this step you are still connected in the logical role of the Project Manager,
 
 - Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**.
 
-  **Summary:** `Create Filter on Twitter Feed`
+    **Summary:** `Create Filter on Twitter Feed`
+    
+    **Description:** `Create Filter to allow user to supply text to reduce the amount of data returned by the Twitter feed`
+    
+    **Type:** `Feature`
 
-  **Description:** `Create Filter to allow user to supply text to reduce the amount of data returned by the Twitter feed`
+    **Owner:** `Bala Gupta (or you if another user is not available)`
 
-  **Type:** `Feature`
+    **Story Points:** `2`
 
-  **Owner:** `Bala Gupta (or you if another user is not available)`
-
-  **Story Points:** `2`
-
-  ![](images/100/Picture100-18.png)
+    ![](images/100/Picture100-18.png)
 
 ### Step 7: Create Issue for initial GIT Repository creation
 
 - Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**.
 
-  **Summary:** `Create Initial GIT Repository for Twitter Feed Marketing UI`
+    **Summary:** `Create Initial GIT Repository for Twitter Feed Marketing UI`
 
-  **Description:** `Create Initial GIT Repository for Twitter Feed Marketing UI`
+    **Description:** `Create Initial GIT Repository for Twitter Feed Marketing UI`
 
-  **Type:** `Task`
+    **Type:** `Task`
 
-  **Owner:** `John Dunbar (or you if another user is not available)`
+    **Owner:** `John Dunbar (or you if another user is not available)`
 
-  **Story Points:** `1`
+    **Story Points:** `1`
 
-  ![](images/100/Picture100-19.png)
+    ![](images/100/Picture100-19.png)
 
 ### Step 8: Step 1:	Create Issue for Displaying Twitter Feed
 
 - Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**.
 
-  **Summary:** `Display Twitter Feed in Table Format`
+    **Summary:** `Display Twitter Feed in Table Format`
 
-  **Description:** `Display Twitter Feed in Table Format`
+    **Description:** `Display Twitter Feed in Table Format`
 
-  **Type:** `Feature`
+    **Type:** `Feature`
 
-  **Owner:** `John Dunbar`
+    **Owner:** `John Dunbar`
 
-  **Story Points:** `2`
+    **Story Points:** `2`
 
-  ![](images/100/Picture100-20.png)
+    ![](images/100/Picture100-20.png)
 
 - Click ![](images/100/Picture100-21.png) on the **left side** of the window, or click on the **Issues** menu option to view all newly created issues.
 
-  ![](images/100/Picture100-22.png)
+    ![](images/100/Picture100-22.png)
 
 # Create Agile Board
 
@@ -222,7 +222,7 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
 
 - Click **Agile** on the Left Side Menu to display a page listing all existing Boards
 
-  ![](images/100/Picture100-23.png)
+    ![](images/100/Picture100-23.png)
 
 - Click **New Board** and enter the following data. When done click **Create**.
 
@@ -230,24 +230,24 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
 
   **Estimation:** `Story Points`
 
-  ![](images/100/Picture100-24.png)
+    ![](images/100/Picture100-24.png)
 
 ### Step 10: Create Sprint
 - We will now create our first Sprint. Click **New Sprint**. Enter the following data and click **OK.**
 
-  **Name:** `Sprint 1 - Initial Development`
+    **Name:** `Sprint 1 - Initial Development`
 
-  **Story Points:** `6`
+    **Story Points:** `6`
 
-  ![](images/100/Picture100-25.png)
+    ![](images/100/Picture100-25.png)
 
 ### Step 1:	Add Backlog Issues to Sprint
 
 - Next we want to add the backlog issues to the newly created spring. **Drag and drop** the **4 issues** one at a time upward onto the **Sprint 1** section. This will add the issues to the sprint.
 
-  ![](images/100/Picture100-26.png)
+    ![](images/100/Picture100-26.png)
 
-  ![](images/100/Picture100-27.png)
+    ![](images/100/Picture100-27.png)
 
 ## Customize Agile Board
 
@@ -257,42 +257,42 @@ In the following step you will customize an Agile Board, and add a new Progress 
 
 - Now we will show you how you can customize your board. In the right hand side click **Board -> Configure**
 
-  ![](images/100/Picture100-28.png)
+    ![](images/100/Picture100-28.png)
 
   **Note**: Before we create a new progress state, we want to un-assign some of the conditions that will be used in the new state. You can’t add new conditions or removed conditions, however, you can redefine progress states to suit your project’s needs and move conditions from one state to another. A large number of conditions are assigned to the Completed state by default.
 
 - Click on **:Progress States**: then click **:Completed**: state. In the lower left panel of the window, scroll down the conditions and select all the **:RESOLVED conditions**:.  Click ![](images/100/PictureGreater.png) to move them over to Unassigned Conditions panel
 
-  ![](images/100/Picture100-29.png)
+    ![](images/100/Picture100-29.png)
 
 - Click **:New Progress State**:.  Change name to **:Verify Code**:. We will use this new State for performing QA and Testing.
 
-  ![](images/100/Picture100-30.png)
+    ![](images/100/Picture100-30.png)
 
 - Highlight all the **:RESOLVED**: unassigned conditions, and click ![](images/100/PictureLess.png) to move them over to the Conditions column.
 
-  ![](images/100/Picture100-31.png)
+    ![](images/100/Picture100-31.png)
 
 - With **:Verify Code**: highlighted, click ![](images/100/PictureUpArrow.png) to move **:Verify Code**: above the Completed Process State.
 
-  ![](images/100/Picture100-32.png)
+    ![](images/100/Picture100-32.png)
 
 - Click **Save** to persist change.
 
-  ![](images/100/Picture100-33.png)
+    ![](images/100/Picture100-33.png)
 
 ### Step 13: Start Sprint
 
 - Click **Start Sprint.** Leave the defaults and click **Start**
 
-  ![](images/100/Picture100-34.png)
+    ![](images/100/Picture100-34.png)
 
 - Now click on **Active Sprints** to view the Sprint Dashboard
 
-  ![](images/100/Picture100-35.png)
+    ![](images/100/Picture100-35.png)
 
 - Click on the **Reports** button to view the Burndown and Sprint reports.
 
-  ![](images/100/Picture100-36.png)
+    ![](images/100/Picture100-36.png)
 
 - You are now ready to move to the next lab.
