@@ -115,6 +115,11 @@ body {
 #labguide .modest-p {
   font-size: 1rem;
   margin-bottom: 1.3rem;
+  margin-left: 25px;
+}
+
+#labguide ul {
+    margin-left: 10px;
 }
 
 #labguide h1,
