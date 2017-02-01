@@ -119,15 +119,15 @@ To begin development on our Twitter feed microservices, we could start coding fr
 
 - In the New Repository wizard enter the following information and click **Create**.
 
-**Name:** `TwitterFeedMicroservice`
+    **Name:** `TwitterFeedMicroservice`
 
-**Description:** `Twitter Feed Microservice`
+    **Description:** `Twitter Feed Microservice`
 
-**Initial content:** `Import existing repository`
+    **Initial content:** `Import existing repository`
 
-**Enter the URL:** `https://github.com/oraclenassolutionengineering/TwitterFeed.git`
+    **Enter the URL:** `https://github.com/oraclenassolutionengineering/TwitterFeed.git`
 
-  ![](images/200/Picture18.png)  
+    ![](images/200/Picture18.png)  
 
 - You have now created a new GIT repository based on an existing repository.
 
@@ -379,7 +379,7 @@ Now that we have completed the import, build, deployment, and verification of ou
 
 - Accept the Import defaults, and **click on Finish**
 
-![](images/200/Picture62.png)  
+    ![](images/200/Picture62.png)  
 
 ### Step 15:	Select the correct Java JDE
 
