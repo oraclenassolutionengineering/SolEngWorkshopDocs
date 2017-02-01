@@ -86,7 +86,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 ###Step 4:	Show Microservices Board
 
 - If the **Microservices** list is not displayed as shown below, then click on the **Board Dropdown**, select **All**, and click on **Microservices**.
-    
+
     ![](images/200/Picture12.png)  
 
 ### Step 5: Display the Active Sprint
@@ -403,8 +403,424 @@ Now that we have completed the import, build, deployment, and verification of ou
 
   ![](images/200/Picture67.png)  
 
+- **Click** on the **JRE home: Director** button
+
+![](images/200/Picture68.png)  
+
 - **Navigate** to **usr/java**, select **jdk1.8.0_102**, and **click** on **OK**
 
-  ![](images/200/Picture68.png)  
+  ![](images/200/Picture69.png)  
 
-# continue conversion on page 36 of the 200 guide
+- Change the JRE Name to **jdk1.8.0_102**, and click on **Finish**
+
+  ![](images/200/Picture70.png)  
+
+- Click **OK, Finish** and **OK** when prompted on the following dialogs to complete the  Library changes.
+
+## Test the Local Cloned Services
+
+### Step 16:	Set Feature 2 Status to In Progress
+
+In the previous steps we updated the status of the Tasks assign to Bala Gupta using the web interface to the Developer Cloud Service. In this step we will use the Eclipse connection to the Developer Cloud Service to update the status of Bala’s tasks.
+
+- Within the Oracle Cloud Connection tab, double click the **Issues** to expand, then double click on **Min**e to expand your list. Once you see the list of your Issues, then double click on **Create Filter on Twitter Feed**.
+
+  ![](images/200/Picture71.png)  
+
+- Scroll down to the bottom of the **Create Filter on Twitter Feed** window. In the Actions section, and change the Actions to **Accept (change status to ASSIGNED)**, then click on **Submit**.
+
+  ![](images/200/Picture72.png)  
+
+- Optionally, if you return to the Developer Cloud Service web interface, you’ll see that the Eclipse interface caused the Feature 2 to be moved to the “In Progress” column of the Agile > Active Sprints.
+
+  ![](images/200/Picture73.png)  
+
+### Step 17:	Build and test the TwitterFeedMicroservice
+
+- **Right Click** on the **TwitterFeedMicroservice** project. Select **Maven > Update Project**
+
+![](images/200/Picture74.png)  
+
+- Keep the defaults, and click **OK**. This will run Maven, and build the project.
+
+  ![](images/200/Picture75.png)  
+
+- To test the local copy of the project code, right click on the **TwitterFeedMicroservice** project and select **Run As > Maven Test**
+
+  ![](images/200/Picture76.png)  
+
+- Double Clicking on the **Console tab** will expand The Window. You can minimize the Window by double clicking the tab again. If the TwitterFeedMicroservices test runs successfully, your console window will contain the following – Notice the message with “### Tweets in Static Tweets”. Also, you should see that there were zero Failures.
+
+  ![](images/200/Picture77.png)  
+
+## Add the Filter to the Service
+
+The Code we cloned locally contains all the source necessary to filter the Static Twitter Feed. In this section of the lab, we will un-comment the code and test the filter.
+
+### Step 18:	Add Filter
+
+- In the Project Explorer, **expand** the **TwitterFeedMicroservice > src/main/java > com.example** and **double click** on **StaticTweets.java** to open the source code.
+
+  ![](images/200/Picture78.png)  
+
+- In the StaticTweets.java source file, scroll down until you find two lines of code that begin with “**--- Remove this comment**”. **Delete both of these lines** to activate the code that will cause filtering of the Static Tweets file to occur.
+
+  ![](images/200/Picture79.png)  
+
+- Your code should now look like this:
+
+  ![](images/200/Picture75.5.png)  
+
+- Next we will enable the filter in the testing code. Expand the **src/test/java > com.example folder**, and **double click** on **MyServiceTest.java** to open the source file
+
+  ![](images/200/Picture80.png)  
+
+- In the MyServiceTest.java source file, locate the method **testGetStaticSearchTweets()**, and **remove** the **comments** so that section of code will execute.
+
+  ![](images/200/Picture81.png)  
+
+- Click on the **Save All** icon
+
+  ![](images/200/Picture82.png)  
+
+## Test the Local Filtered Services
+
+### Step 19:	Run Test
+
+- Run the Test by right clicking on **TwitterFeedMicroservice** and selecting **Run As > Maven Test**
+
+  ![](images/200/Picture83.png)  
+
+- Once the test runs, you’ll see the Static Twitter feed returned for both the unfiltered and filtered tests. You should not see and Failures.
+
+  ![](images/200/image087.png)  
+
+- Enter **Feature2** for the Branch name, and click on **Finish**
+
+  ![](images/200/image088.png)  
+
+- We can now commit our code to the branch by Right Clicking on **TwitterFeedMicroservice** and then selecting **Team > Commit**
+
+  ![](images/200/image089.png)  
+
+- Enter “**Feature2: Added Support for Filtering**” in the Commit Message box, **Drag and Drop** the **changed files** into the **Staged Changes** panel, and click on **Commit and Push**. Note: it is possible to change the default Author and Committer to match the current “persona.” However, for the sake of this lab guide, we will leave the defaults.  
+
+  ![](images/200/image090.png)  
+
+- Accept the Default for the **Push Branch Feature** 2 dialog and click on **Next**
+- Click on the **Finish button** in the Push Confirmation dialog
+- Click on **Ok** in Push Result dialog
+
+### Step 21:	Complete the Create Filter Task
+
+- In the lower left Eclipse Task List, double click on **Create Filter on Twitter Feed** task
+
+  ![](images/200/image091.png)  
+
+- In the **Create Filter on Twitter Feed** window, scroll down to the **Actions** Section. Click on **Resolve as FIXED**, and then click on the **Submit** button
+
+  ![](images/200/image092.png)  
+
+## Create Merge Request
+
+### Step 22:	Review Sprint Status and create Merge Request
+
+- Return to the Developer Cloud Service Dashboard in the browser, and select **Agile**. If your default Board is not set to Microservices, then set the Find Board Filter to All, and select the Microservices board.
+
+  ![](images/200/image093.png)  
+
+- Click on **Active Sprints** button. Notice that **Feature 2** is now in the **Verify Code** column
+
+- Next, on navigation panel click **Code**, select the **Feature2** branch and then click on the **Commits sub tab**. Now view the recent commit made to branch from within Eclipse.
+
+  ![](images/200/image094.png)  
+
+- Now that Bala Gupta has completed the task of adding the search filter, a **Merge Request** can be created by Bala and assigned to Lisa Jones. Click on the Merge Requests, and then click on the **New Request** button.
+
+- Enter the following information into the **New Merge Request** and click **Next**
+
+  **Repository:** 	`TwitterFeedMicroservice.git`
+
+  **Target Branch:** `master`
+
+  **Review Branch:** `Feature2`
+
+  ![](images/200/image096.png)  
+
+
+- Enter the following information into **Details** and click **Create**
+
+  **Summary:** `Merge Feature 2 into master`
+
+  **Reviewers:** `Lisa Jones` (or current user in non-multi user env)
+
+  ![](images/200/image097.png)  
+
+
+- In the **Write box**, enter the following comment and then click on the **Comment** button to save:
+
+  `I added the ability to add a filter request to the end of the URL – e.g. statictweets/alpha`
+
+## Merge the Branch as Lisa Jones
+
+In the following steps “Lisa” will merge the branch create by “Bala” into the master.
+
+***NOTE: If you are using a single user environment, you will skip the next step, and go to the following step titled: “Merge Requests”***
+
+### Step 23:	Sign Out as Bala Gupta and Sign In as Lisa Jones
+
+- Click on the **bala.gupta** dropdown located in the top right corner of the screen. Select **Sign Out**.
+
+  ![](images/200/Picture84.png)  
+
+- Following the previously documented steps, go to the URL: http://cloud.oracle.com, click on **Sign In** found on the Top Right corner of the window. Select the **correct Data Center**, click on the **My Services** button, enter the **correct Identity Domain** and click on **Go**.
+
+- Enter lisa.jones for the username, and enter the correct password. Click on Sign In.
+
+  ![](images/200/image100.png)  
+
+- When the Dashboard is displayed, click on the **Developer Cloud Service**. Note: It is possible that based on your browser cookie settings, you may be automatically taken to the Developer screen at the end of this step.
+
+  ![](images/200/image101.png)  
+
+- From the Developer Cloud Service Dashboard, click on the **Open Service Console** button
+
+  ![](images/200/image102.png)  
+
+- Select the **Twitter Feed Marketing Project**
+
+  ![](images/200/image103.png)  
+
+### Step 24:	Merge Requests
+
+- Before moving forward, “Lisa Jones” can take a look at the **Burndown** and **Sprint Reports** by clicking on the **Agile** navigation, then the **Reports** button
+
+  ![](images/200/image104.png)  
+
+- Click **Sprint Report**
+
+  ![](images/200/image105.png)  
+
+- On navigation panel click **Merge Requests**. Select the **Assigned to Me** search. After the search completes, click on the **Merge Feature 2 into master** assigned request.
+
+  ![](images/200/image106.png)  
+
+- Once the request has loaded, select the **Changed Files** tab. “Lisa” will now have the opportunity to review the changes in the branch, make comments, request more information, etc. before Approving, Rejecting or Merging the Branch.
+
+  ![](images/200/image107.png)  
+
+- Click on the **Merge** button.
+
+  ![](images/200/image108.png)  
+
+- Leave the defaults, and click on the **Merge** button in the confirmation dialog.
+
+  ![](images/200/image109.png)  
+
+- Now that the code has been committed to the Developer Cloud Service repository, the build and deployment will automatically start. On the navigation panel click **Build**, and you should see a **Twitter Feed Build** in the Queue
+
+  ![](images/200/image110.png)  
+
+- Wait a minute or two for the build to complete. The **Last Success** will be set to **Just Now** when the build completes.
+
+  ![](images/200/Picture85.png)  
+
+## Test the JavaTwitterMicroservice in the Cloud
+
+- Once the service has successfully deployed, click on the **JavaTwitterMicroservice** link
+
+  ![](images/200/image113.png)  
+
+- When the new browser tab loads, Append `/statictweets` to the end of the URL and **press enter** to test the original static twitter service
+
+  ![](images/200/image114.png)  
+
+- Now change the appended URL to `/statictweets/alpha` and **press enter**. This will cause records containing the text ""**alpha**"" in the tweet’s text or hashtags to be returned.
+
+  ![](images/200/image115.png)  
+
+- To complete the Sprint Feature, click **Agile** on left hand navigation. Then click on the **Active Sprints** button.
+
+![](images/200/image116.png)  
+
+- Complete the feature request by Dragging and Dropping **Feature 2** (Create Filter on Twitter Feed) from the **Verify Column** to the **Completed Column**.
+
+  ![](images/200/image117.png)  
+
+- Set the Status to **VERIFIED – FIXED** and click **OK**
+
+  ![](images/200/image118.png)  
+
+- **Sign Out** as Lisa Jones
+
+  ![](images/200/Picture86.png)  
+
+- You are now done with this lab.
+
+# Supplementary Assignment – Twitter Live Feed Credentials
+
+## Create Twitter App
+
+***This is an optional assignment***, during which you’ll have an opportunity to put your new knowledge of the Developer Cloud Service to work by extending our static twitter microservices to use live twitter data. In this exercise, you will acquire Twitter Application Credentials and use them to operate on a live twitter feed in your microservices. For the purposes of this assignment, you will use a personal account to log in to twitter and generate the credentials. However, in the context of our application, assume that these credentials have been provided by Product Management and represent the approved credentials for our production application.
+
+You have two options for managing this code change in the version control system. If you would like more practice with the multi-user workflow, you can start a new branch for this feature, commit to that branch, create a merge request, and approve the merge. We’ll refer to this in the instructions as **Method A**. If you’re comfortable with that workflow, you can switch to master in your local repository, pull the latest revision from the cloud, and commit and push directly to master for this exercise. This will be **Method B**.
+
+### Step 25:	Create New Twitter App
+
+To generate the unique twitter credentials for our microservices, we need to sign in to twitter and create a new application for this project, then generate access tokens for it.
+
+- Navigate to https://apps.twitter.com. Click on the **Sign In** link.
+
+  ![](images/200/image119.png)  
+
+- If you are already a twitter user, **Log In** using your twitter credentials. Otherwise, click on the **Sign up Now** link
+
+  ![](images/200/image120.png)  
+
+- Once logged in, click on the **Create New App** button.
+
+  ![](images/200/image121.png)  
+
+- **Enter the following** and Click on the **Create your Twitter application** button. When entering the Application Name, append something unique to the Name’s end. E.g. your initials or name:
+
+  **Name:** `JavaTwitterMicroservice<UniqueName>``
+
+  **Description:** `A Twitter Feed Microservice`
+
+  **Website:** `https://cloud.oracle.com/acc`
+
+  **Developer Agreement:** Click `Yes`
+
+  ![](images/200/image122.png)  
+
+- Click on the **Keys and Access Tokens** tab.
+
+![](images/200/image123.png)  
+
+- If at the bottom of the page your Tokens are not visible, click on the **Create my access tokens** button
+
+  ![](images/200/image124.png)  
+
+- Note: If you are following **Method B**, before you start modifying code in Eclipse, you should switch to the master branch and pull from the remote repository.
+
+- Return to Eclipse, and in the Project Explorer tab, expand **TwitterFeedMicroservices.git > src/main/config** and double click on **twitter-auth.json** to load the source.
+
+  ![](images/200/image125.png)  
+
+- This is the File that will be deployed to the Application Container Cloud. Edit this file by replacing the xxx’s in **consumerKey, consumerSecret, token and tokenSecred with the Consumer Key (API Key), Consumer Secret (API Secret), Access Token and Access Token Secret** found on the Twitter Application Management page.
+
+  ![](images/200/image126.png)  
+
+- Click on the Save All icon in Eclipse ![](images/200/image127.png)
+
+- So we can test locally, let’s repeat the same step by updating the Test Code’s twitter-auth.json credentials. Open the file located in **TwitterFeedMicroservices.git > src/test/resources > twitter-auth.json** and update. Once updated, click on the **Save All** Icon.
+
+  ![](images/200/image128.png)
+
+- Let’s now un-comment the code that will allow the online Twitter Feed to be tested. Using the Project Explorer, open the **TwitterFeedMicroservice.git > src/test/java > com.example > MyServiceTest.java** file.
+
+  ![](images/200/image129.png)
+
+- In the MyServiceTest.java file, located the method **testGetTweets()** and **remove the comment** surrounding that method.
+
+  ![](images/200/image130.png)
+
+- Click on the Eclipse Save All icon ![](images/200/image127.png)
+
+- Run the Test by right clicking on **TwitterFeedMicroservice** and selecting **Run As > Maven Test**
+
+  ![](images/200/Picture87.png)
+
+- After the tests run, the testGetTweets() method will return the message “The client read 10 messages!,” and all Tests should complete successfully.
+
+  ![](images/200/image131.png)
+
+- If you’re following **Method A**, now that you’ve enabled this new feature to access the live twitter feed, you can follow the previous steps used in this document to commit the code to the cloud. Once committed, you will use the Developer Cloud Service to create a merge request and then approve that request. Once the master branch is updated, an automatic build and deployment to the Application Container Cloud Service will be performed. Verify that deployment is successful before continuing.
+
+- If you’re following **Method B**, now that you’ve enabled this new feature to access the live twitter feed, you can follow the previous steps used in this document to commit the code to the cloud. That will trigger an automatic build and cause the Application Container Cloud Service deployment to be performed by the Developer Cloud Service. Verify that deployment is successful before continuing.
+
+- For either method, you will now be able append `/tweets` to the end of the Application Container Cloud Service URL and retrieve the Live Tweets.
+
+- The example below shows the live tweets returned, once the application is re-deployed.
+
+  ![](images/200/image132.png)
+
+# Appendix 2 – Installing Eclipse
+
+## Download and Install Eclipse
+
+In this appendix you will download and install Eclipse containing the Oracle Plugin.
+
+### Step 26:	Download Eclipse
+
+- Go to the following URL: http://www.oracle.com/technetwork/developer-tools/eclipse/downloads/index.html
+
+- Accept the **licensing agreement**, and then select the **Neon** version of Eclipse required for your operating system.
+
+  ![](images/200/image133.png)
+
+- Once you’ve downloaded eclipse, extract the zip file and install.
+Optionally Configure Proxies
+
+### Step 27:	Configuring Proxies
+
+If you are running Eclipse behind a firewall and need to configure the proxy setting, there are several updates to be made. First, you need to ensure that Eclipse’s proxy is set, next you need to update the maven proxy setting, then finally, you need to ensure that the Oracle Plugin will work with your proxy settings.
+
+- To set configure Eclipse’s proxy, open Eclipse and navigate to the Properties menu. Depending on the operating system, this drop down is found either from the **Eclipse > Preferences**, or **Window > Preferences**
+
+  ![](images/200/image134.png)
+
+- From the preferences panel, enter “**proxy**” into the search window, and click on **Network Connections**. Select **Native** for the Active Provider. This setting works well, but it requires that you have the proxy setting configured correctly on the system running Eclipse – e.g. Windows, MAC OS or Linux. Selecting Manual should also work, but some of the plugins require the underlying operating system’s proxy to be configured.
+
+  ![](images/200/image135.png)
+
+- To test that your connection works, select the menu option **Window > Show View > Other**
+
+![](images/200/image136.png)
+
+- Type “**web**” in the search field, select **Internal Web Browser** and click on **OK**
+
+  ![](images/200/image137.png)
+
+- Enter a **URL** into the and **press enter** to test your proxy settings.
+
+  ![](images/200/image138.png)
+
+###Step 28:	Update the Eclipse / Maven proxy
+
+- From the **Eclipse > Preference** or **Window > Preferences** panel, enter **Maven** into the search box. Click on the Maven **User Settings**. Make note of the directory where the settings.xml file is to be located. In the example below, the Maven User Settings are to be located in the **/home/oracle/.m2** directory
+
+![](images/200/image139.png)
+
+- Close Eclipse
+
+- If the directory does not exist where the settings.xml file is to be located, **create the directory**. In this example, we will create the .m2 directory. Also, create the settings.xml file, if it does not exist. Add the following to the settings.xml file (NOTE: you will need to use your correct **Host, Port, nonProxyHosts, username and Password** settings):
+
+ ```
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd">
+  <proxies>
+    <proxy>
+      <active>true</active>
+      <protocol>http</protocol>
+      <username>proxyuser</username>
+      <password>proxypass</password>
+      <host>www-proxy.us.oracle.com</host>
+      <port>80</port>
+      <nonProxyHosts>local.net|some.host.com</nonProxyHosts>
+    </proxy>
+    <proxy>
+      <active>true</active>
+      <protocol>https</protocol>
+      <username>proxyuser</username>
+      <password>proxypass</password>
+      <host>www-proxy.us.oracle.com</host>
+      <port>80</port>
+      <nonProxyHosts>local.net|some.host.com</nonProxyHosts>
+    </proxy>
+  </proxies>
+</settings>
+```
+
+- Reload Eclipse to use the new maven settings
