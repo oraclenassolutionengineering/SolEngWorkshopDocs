@@ -168,10 +168,22 @@ body {
   font-weight: medium;
   font-family: 'Tahoma', sans-serif;
   color:#000000;    
-    padding: 5px;
+    padding: 5px 5px 5px 0px;
     margin-left: 25px;
 
 
+}
+
+#labguide h3.plus:before {
+    content: '+';
+    position: relative;
+    left: -20px;
+}
+#labguide h3.minus:before {
+    content: '-';
+    position: relative;
+    left: -20px;
+    margin-right: 6px;
 }
 
 #labguide h4,
