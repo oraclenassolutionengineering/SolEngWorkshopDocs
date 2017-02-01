@@ -28,34 +28,34 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
 - If you just completed lab 100, or if you are still logged in as Lisa.Jones, you will need to first sign out before continuing this lab. Sign out by clicking on the user’s name (lisa.jones) at the top right corner of the screen, then selecting Sign Out from the dropdown menu.
 
-  ![](images/200/Picture1.png)  
+    ![](images/200/Picture1.png)  
 
 - Now we can login again. From any browser, **go to the following URL**:
 https://cloud.oracle.com
 
 - Click **Sign In** in the upper right hand corner of the browser.
 
-  ![](images/200/Picture2.png)  
+    ![](images/200/Picture2.png)  
 
 - **IMPORTANT** - Under My Services, ask ***your instructor*** which **Region** to select from the drop down list, and **click** on the **My Services** button.
 
-![](images/200/Picture3.png)  
+    ![](images/200/Picture3.png)  
 
 - Enter your identity domain and click **Go**
 
   ***NOTE***: the **Identity Domain, User Name** and **Password** values will be given to you from your instructor.
 
-  ![](images/200/Picture4.png)  
+    ![](images/200/Picture4.png)  
 
 - Once your Identity Domain is set, enter your **User Name** and **Password** and click **Sign In**
 
   **NOTE**: For the first part of this lab you will be acting as the Java Developer ***Bala Gupta***. As with the previous lab, if you are not able to support multiple users, login as a supported user, and assume the “logical” identify of Bala Gupta - the Java Developer.
 
-  ![](images/200/Picture5.png)  
+    ![](images/200/Picture5.png)  
 
 - Once connected, you will be presented with a Dashboard displaying the various cloud services available to this account. Note: Based on your browser cookie settings, **it’s possible that once connected you will placed into the Developer Cloud Service dashboard**, and will not need to complete the next few tasks that were performed automatically.
 
-  ![](images/200/Picture6.png)  
+    ![](images/200/Picture6.png)  
 
 ### Step 2:	Login to Developer Cloud Service
 
@@ -86,14 +86,14 @@ Oracle Developer Cloud Service provides a complete development platform that str
 ###Step 4:	Show Microservices Board
 
 - If the **Microservices** list is not displayed as shown below, then click on the **Board Dropdown**, select **All**, and click on **Microservices**.
-
-![](images/200/Picture12.png)  
+    
+    ![](images/200/Picture12.png)  
 
 ### Step 5: Display the Active Sprint
 
 - Click on the **Microservices** Board **Active Sprint**
 
-![](images/200/Picture13.png)  
+    ![](images/200/Picture13.png)  
 
 ## Create Initial Git Repository
 
@@ -149,15 +149,15 @@ Now that we have the source code in our managed GIT repository, we need to creat
 
 - You are now placed into the job configuration screen.
 
-![](images/200/Picture22.png)  
+    ![](images/200/Picture22.png)  
 
 - On the Main tab of the Configure Build screen change the **JDK** drop down to **JDK8**.
 
-![](images/200/Picture23.png)  
+    ![](images/200/Picture23.png)  
 
 - Click the **Source Contro**l tab. Click Git and select the **TwitterFeedMicroservice.git** from the drop down.
 
-![](images/200/Picture24.png)  
+    ![](images/200/Picture24.png)  
 
 - Click the **Triggers** tab.
 
