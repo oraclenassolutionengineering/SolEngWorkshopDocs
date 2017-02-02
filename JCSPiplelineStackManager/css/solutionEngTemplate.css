@@ -115,6 +115,11 @@ body {
 #labguide .modest-p {
   font-size: 1rem;
   margin-bottom: 1.3rem;
+  margin-left: 25px;
+}
+
+#labguide ul {
+    margin-left: 10px;
 }
 
 #labguide h1,
@@ -140,7 +145,7 @@ body {
   font-weight: bold;
   font-family: 'Tahoma', sans-serif;
   color:#15325a;
-
+  padding: 10px;
 
 
 
@@ -153,7 +158,7 @@ body {
   font-weight: bold;
   font-family: 'Tahoma', sans-serif;
   color:#15325a;
-
+  margin-left: 15px;
 }
 
 #labguide h3,
@@ -162,9 +167,23 @@ body {
   background-color:#E0E8ED;
   font-weight: medium;
   font-family: 'Tahoma', sans-serif;
-  color:#000000;
+  color:#000000;    
+    padding: 5px 5px 5px 5px;
+    margin-left: 25px;
+    position: relative;
 
 
+}
+
+#labguide h3.plus:before {
+    content: '+';
+    position: absolute;
+    left: -20px;
+}
+#labguide h3.minus:before {
+    content: '-';
+    position: absolute;
+    left: -20px;
 }
 
 #labguide h4,
@@ -261,12 +280,17 @@ html {
     text-align: left;
       border-bottom: 1px solid #fafafa;
       border-top: 1px solid #fafafa;
-
+/*    cursor: pointer;*/
 }
 
 #labguide h2,
 #labguide h3 {
     text-align: left;
+    
+}
+
+#labguide h3 {
+    cursor: pointer;
 }
 
 #labguide blockquote {
