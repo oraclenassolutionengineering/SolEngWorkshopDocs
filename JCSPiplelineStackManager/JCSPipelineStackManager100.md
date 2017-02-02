@@ -178,9 +178,9 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
 ## Create Issues for the Opperations Pipeline
 
-In this step you are still connected in the logical role of the Project Manager, ***Lisa Jones***
-
 ### **STEP 8:** Create and Issue for the initial GIT Repository Creation
+
+In this step you are still connected in the logical role of the Project Manager, ***Lisa Jones***
 
 - Click **Issues** on left hand navigation panel to display the Track Issues page.
 
@@ -286,6 +286,7 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
 - **Reports view** – select the Burndown Chart tab to display the amount of work left to do in a Sprint or use the Sprint Report tab to list open and completed Issues of a Sprint.
 
 ### **STEP 12:** Create Agile Board
+
 - Click **Agile** on the Left Side Menu to display a page listing all existing Boards.
 
     ![](images/100/Picture100-21.png)
