@@ -219,8 +219,8 @@ Now that we have successfully built our project, we need to create a deployment 
     ![](images/200/Picture33.png)  
 
 - Enter the following data:
-  - **Data Center**: `EMEA Commercial 2 – em2` ***(or your appropriate Data Center)***
-  - **Identity Domain**: `<You Identity Domain>`
+  - **Data Center**: `<Your Assigned Datacenter>` ***(Ask instructor if needed)***
+  - **Identity Domain**: `<Your Identity Domain>`
   - **Username**: `bala.gupta` **(or your appropriate username if running as single user)**
   - **Password**: `<Supplied Password>`
 
