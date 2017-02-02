@@ -145,7 +145,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
     ![](images/100/Picture100-9.png)
 
-###**STEP 7:** Create Developer Cloud Service Project
+### **STEP 7:** Create Developer Cloud Service Project
 
 - Click **New Project** to start the project create wizard.
 - On Details screen enter the following data and click on **Next**.
@@ -190,9 +190,9 @@ In this step you are still connected in the logical role of the Project Manager,
 
     **Note:** no matter who you assign as the task “physical” owner, for the sake of this workshop, Bala Gupta will be the “logical” owner.
 
-    **Summary:** `Create Initial GIT Repository for Infrustructure and configure Build`
+    **Summary:** `Create Initial GIT Repository for Infrastructure and configure Build`
 
-    **Description:** `Create Initial GIT Repository for Infrustructure and configure Build`
+    **Description:** `Create Initial GIT Repository for Infrastructure and configure Build`
 
     **Type:** `Task`
 
@@ -215,7 +215,7 @@ https://agilefaq.wordpress.com/2007/11/13/what-is-a-story-point/
 
     **Summary:** `Provision new Alpha Office Environment`
 
-    **Description:** `Provision new Alpha Office environment and increment the identifier`
+    **Description:** `Provision new Alpha Office Environment by modifying configuration file`
 
     **Type:** `Task`
 
@@ -308,38 +308,15 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
 
 ### **STEP 14:** Add Backlog Issues to Sprint
 
-- Next we want to add the backlog issues to the newly created spring. **Drag and drop* the **4 issues** one at a time upward onto the **Sprint 1** section. This will add the issues to the sprint.
+- Next we want to add the backlog issues to the newly created spring. **Drag and drop** the **4 issues** one at a time upward onto the **Sprint 1** section. This will add the issues to the sprint.
 
     ![](images/100/Picture100-24.png)
 
     ![](images/100/Picture100-25.png)
 
-## Customize Agile Board
+### **STEP 15:** View Active Sprint and Reports
 
-### **STEP 15:** Customize Board
-
-In the following step you will customize an Agile Board, and add a new Progress State. If you desire more information about States and Conditions, the following link will provide a tutorial:
-http://www.oracle.com/webfolder/technetwork/tutorials/obe/cloud/developer/AgileDevelopment/AgileDevelopment.html
-
-- Now we will show you how you can customize your board. In the right hand side click **Board -> Configure**
-
-    ![](images/100/Picture100-26.png)
-
-    **Note:** Before we create a new progress state, we want to un-assign some of the conditions that will be used in the new state. You can’t add new conditions or removed conditions, however, you can redefine progress states to suit your project’s needs and move conditions from one state to another. A large number of conditions are assigned to the Completed state by default.
-
-- Click on **Progress States**, then click **Completed** state. In the lower left panel of the window, scroll down the conditions and select all the **RESOLVED** conditions. Click the **>** icon to move them over to the Unassigned Conditions panel.
-
-    ![](images/100/Picture100-27.png)
-
-- Hightlight all the **RESOLVED** unassigned conditions, and clikc **<** to move them over to the Conditions column.
-
-    ![](images/100/Picture100-28.png)
-
-- With the **Verify Code** highlighed, click on the ![icon](images/100/PictureUpArrow.png) to move **Verify Code** above the **Completed** Process State.
-
-    ![](images/100/Picture100-29.png)
-
-- Click **Save Sprint**. Leave defaults and click **Start**
+- Click **Start Sprint.** Leave defaults and click **Start**
 
     ![](images/100/Picture100-30.png)
 
