@@ -34,29 +34,29 @@ For this workshop we will be using a Client Image that will represent your on-pr
 
     ![](images/100/Picture100-1.png)
 
-    - **IMPORTANT** - Under my services, ***ask your instructor*** which **Region** to select from the drop down list, and click on the **My Services** button.
+- **IMPORTANT** - Under my services, ***ask your instructor*** which **Region** to select from the drop down list, and click on the **My Services** button.
 
-        ![](images/100/Picture100-2.png)
+    ![](images/100/Picture100-2.png)
 
-    - Enter your identity domain and click **Go**.
+- Enter your identity domain and click **Go**.
 
-        **NOTE:** The **Identity Domain, User Name** and **Password** values will be given to you by the instructor.
+    **NOTE:** The **Identity Domain, User Name** and **Password** values will be given to you by the instructor.
 
-        ![](images/100/Picture100-3.png)
+    ![](images/100/Picture100-3.png)
 
-    - Once you Identity Domain is set, enter your User Name and Password and click **Sign In**
+- Once you Identity Domain is set, enter your User Name and Password and click **Sign In**
 
-        **NOTE:** For this lab you will assume the role of Project Manager ***Lisa Jones***. To make things simple we will be using a single login for all 3 roles.
+    **NOTE:** For this lab you will assume the role of Project Manager ***Lisa Jones***. To make things simple we will be using a single login for all 3 roles.
 
-        ![](images/100/Picture100-4.png)
+    ![](images/100/Picture100-4.png)
 
-    - You will be presented with a Dashboard displaying the various cloud services available to this account.
+- You will be presented with a Dashboard displaying the various cloud services available to this account.
 
-        ![](images/100/Picture100-5.png)
+    ![](images/100/Picture100-5.png)
 
-    - If all of your services are not visible, **click** on the **Customize Dashboard**, you can add services to the dashboard by clicking **Show.** If you do not want to see a specific service click **Hide**
+- If all of your services are not visible, **click** on the **Customize Dashboard**, you can add services to the dashboard by clicking **Show.** If you do not want to see a specific service click **Hide**
 
-        ![](images/100/Picture100-6.png)
+    ![](images/100/Picture100-6.png)
 
 ### **STEP 2:** Access Compute Service Console
 - From the main dashboard, click on the **Compute** service link
