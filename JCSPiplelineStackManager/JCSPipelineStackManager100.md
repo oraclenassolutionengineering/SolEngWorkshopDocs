@@ -272,6 +272,8 @@ https://agilefaq.wordpress.com/2007/11/13/what-is-a-story-point/
 
 ## Create Agile Board and Initial Sprint
 
+### Developer Cloud Service Agile Page Overview
+
 Before you start using the Agile methodology in Oracle Developer Cloud Service, it is important that you know the following key components of the Agile page.
 
 - **Board** – A Board is used to display and update issues of the project. When you create a Board, you associate it with an Issue Query. The Board shows Issues returned by the Query.
