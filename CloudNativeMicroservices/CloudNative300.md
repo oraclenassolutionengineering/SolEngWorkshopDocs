@@ -74,7 +74,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
     ![](images/300/image010.png)  
 
-## **STEP 3**: Review Agile Board
+### **STEP 3**: Review Agile Board
 
 - Click **Twitter Feed Marketing Project** to access the project.
 
@@ -94,7 +94,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
 ## Create Initial Git Repository
 
-## **STEP 4**: Create Initial Git Repository
+### **STEP 4**: Create Initial Git Repository
 
 As in the previous lab, we could start coding this application from scratch at this point. However, one of our colleagues has already begun working on the shell for our web application outside of the Developer Cloud Service. We want to use his work as a starting point and extend it to incorporate our twitter microservices. To pull his code into the Developer Cloud Service, we will clone his external GIT repository. First let’s update our agile board to show that we are working on this task:
 
@@ -238,7 +238,7 @@ Now that we have successfully deployed the build artifact to the Application Con
 
     ![](images/300/image041.png)  
 
-## **STEP 8**: Login to Oracle Application Container Cloud Service
+### **STEP 8**: Login to Oracle Application Container Cloud Service
 
 - Navigate back to the Oracle Public Cloud tab. Click **Dashboard** to return back to main Cloud Service Dashboard.
 
@@ -569,7 +569,7 @@ In the following steps “Lisa” will merge the branch created by “John” in
 
     ![](images/300/image093.png)
 
-## **STEP 22**: Merge Requests
+### **STEP 22**: Merge Requests
 
 - Click on **Merge Requests**. Select the **Assigned to Me** search. After the search completes, click on the **Merge Feature 4 into master** assigned request.
 
@@ -601,6 +601,8 @@ In the following steps “Lisa” will merge the branch created by “John” in
 
 ## Test the JETFrontEndAPP UI in the Cloud
 
+### **STEP 23**: Merge Requests
+
 - Once the service has successfully deployed, click on the **JETFrontEndApp** link
 
     ![](images/300/image101.png)
@@ -627,7 +629,7 @@ In the following steps “Lisa” will merge the branch created by “John” in
 
 Download and Install Git
 
-## **STEP 23**: Download Git
+### **STEP 24**: Download Git
 
 - Go to the following URL: https://git-scm.com/downloads
 
@@ -651,7 +653,7 @@ Download and Install Git
 
 ## Download and Install Brackets Text Editor
 
-### **STEP 24**: Download Brackets Text Editor
+### **STEP 25**: Download Brackets Text Editor
 
 - Go to the following URL: http://brackets.io
 
@@ -673,7 +675,7 @@ Download and Install Git
 
 ## Start Brackets and Configure Git
 
-### **STEP 25**: Start Brackets and Configure Git
+### **STEP 26**: Start Brackets and Configure Git
 
 - Create directory T**witterMarketingUI**. From Windows Explorer navigate to the directory **TwitterMarketingUI**, right click and select **Open as Brackets Project**
 

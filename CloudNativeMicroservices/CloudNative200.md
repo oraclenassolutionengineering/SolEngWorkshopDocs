@@ -294,7 +294,7 @@ Now that we have successfully deployed the build artifact to the Application Con
 
     ![](images/200/Picture45.png)  
 
-## **STEP 11**: Complete Task
+### **STEP 11**: Complete Task
 
 We have now verified that the statictweets microservice has been deployed and functions properly. To finish up this part of the lab, we will mark the Issue as completed in our Sprint.
 
