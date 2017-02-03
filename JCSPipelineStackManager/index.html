@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Lab Guides</title>
+  <title>Oracle Workshops</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
@@ -65,12 +65,12 @@
     <div id='introduction' ng-show='!selection.lab' layout="column" layout-margin layout-padding layout-align="start center">
         <p ng-bind-html='manifest.workshop.description'></p>
 
-        <p>Open the navigation menu using the hamburger icon in the menu bar to choose a lab guide and get started, or click the button below to begin the first lab.</p>
+        <p>Open the navigation menu using the hamburger icon (<md-icon md-svg-icon="images/menu.svg"></md-icon>) in the menu bar to choose a lab guide and get started, or click the menu button below.</p>
         <div layout="row">
             <md-button ng-click="toggleLeft()" class="md-accent md-raised">
                 Menu
             </md-button>
-            <md-button ng-click="getLabGuide(manifest.workshop.labs[0])" class="md-accent md-raised">
+            <md-button ng-click="getLabGuide(manifest.workshop.labs[0])" class="md-accent md-raised" ng-if="false">
                 Lab {{manifest.workshop.labs[0].number}}
             </md-button>
         </div>
