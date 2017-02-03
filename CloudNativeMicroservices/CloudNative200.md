@@ -163,8 +163,6 @@ Now that we have the source code in our managed GIT repository, we need to creat
 
   **Select**: `Based on SCM polling schedule`
 
-  **Schedule:** `*/1****`
-
   **Note:** The above expression results in the repository being polled every minute to check for any changes. If there are changes, the build will trigger.
 
     ![](images/200/Picture25.png)  
