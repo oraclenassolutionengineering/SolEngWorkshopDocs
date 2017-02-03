@@ -37,16 +37,16 @@
       <md-toolbar class="md-hue-2">
         <h1 class="md-toolbar-tools">Workshop Contents</h1>
       </md-toolbar>
-      <md-content layout-padding>
+      <md-content>
         <md-list>
-            <md-list-item class="md-3-line" ng-click="selection.lab = false; close();">
+            <md-list-item class="md-3-line toc-item" ng-click="selection.lab = false; close();">
                 <div class="md-list-item-text">
                     <h3>Introduction</h3>
                     <p>An overview of this workshop</p>
                 </div>
                 <md-divider></md-divider>
             </md-list-item>
-            <md-list-item class="md-3-line" ng-repeat="lab in manifest.workshop.labs" ng-click="getLabGuide(lab); close();">
+            <md-list-item class="md-3-line toc-item" ng-repeat="lab in manifest.workshop.labs" ng-click="getLabGuide(lab); close();">
                 <div class="md-list-item-text">
                     <h3>{{lab.title}}</h3>
                     <p>{{lab.description}}</p>
@@ -119,16 +119,8 @@
                     lab.htmlContent = html;
                     $scope.selection.lab = true;
                     setTimeout(function() {
-//                        $("h1").nextUntil("h1").hide();
-//                        $("h2").nextUntil("h1, h2, h3").hide();
                         $("#labguide h3").nextUntil("#labguide h1, #labguide h2, #labguide h3").hide();
                         $("#labguide h3").addClass('plus');
-//                        $("h1").click(function() {
-//                            $(this).nextUntil("h1").toggle();
-//                        });
-//                        $("h2").click(function() {
-//                            $(this).nextUntil("h1, h2").toggle();
-//                        });
                         $("#labguide h3").click(function() {
                             
                             if($(this).hasClass('plus')) {
@@ -168,19 +160,6 @@
         return str.replace(new RegExp(find, 'g'), replace);
     }
     
-    
-//    var mdContent = '';  
-//    $.ajax('JCSPipelineStackManager100.md')
-//        .done(function(msg) {
-//            mdContent = msg;
-//      mdContent = replaceAll(mdContent, /\(images\//g, '(https://oraclenassolutionengineering.github.io/SolEngWorkshopDocs/JCSPiplelineStackManager/images/');
-      
-//    var converter = new showdown.Converter(),
-//    text = mdContent,
-//    html = converter.makeHtml(text);
-      
-//      $('#labguide').html(html);
-//    });
     
 </script>
 </body>
