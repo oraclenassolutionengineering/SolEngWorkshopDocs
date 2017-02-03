@@ -1,7 +1,7 @@
 
-**To View in Interactive Labguide Format:** https://launch.oracle.com/?cloudnative
+**To View in Interactive Labguide Format:** https://oraclenassolutionengineering.github.io/SolEngWorkshopDocs/CloudNativeMicroservices/index.html
 
-**To view interactive Workhops Overview:** http://launch.oracle.com/?cloudnative
+**To view Interactive Workhops Overview:** http://launch.oracle.com/?cloudnative
 
 
 # DevOps: Cloud Native Microservices Workshops
