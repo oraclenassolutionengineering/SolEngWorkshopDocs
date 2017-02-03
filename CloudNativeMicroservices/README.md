@@ -1,8 +1,8 @@
 
-**To View in Interactive Labguide Format:**
+**To View in Interactive Labguide Format:**  
 https://oraclenassolutionengineering.github.io/SolEngWorkshopDocs/CloudNativeMicroservices/index.html
 
-**To View Interactive Workhops Overview:** 
+**To View Interactive Workhops Overview:**  
 http://launch.oracle.com/?cloudnative
 
 
