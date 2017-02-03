@@ -24,7 +24,7 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
 ## Explore Developer Cloud Service
 
-### Step 1: Login to your Oracle Cloud account as Bala.Gupta
+### **STEP 1**: Login to your Oracle Cloud account as Bala.Gupta
 
 - If you just completed lab 100, or if you are still logged in as Lisa.Jones, you will need to first sign out before continuing this lab. Sign out by clicking on the user’s name (lisa.jones) at the top right corner of the screen, then selecting Sign Out from the dropdown menu.
 
@@ -57,7 +57,7 @@ https://cloud.oracle.com
 
     ![](images/200/Picture6.png)  
 
-### Step 2:	Login to Developer Cloud Service
+### **STEP 2**: Login to Developer Cloud Service
 
 Oracle Developer Cloud Service provides a complete development platform that streamlines team development processes and automates software delivery. The integrated platform includes issue tracking system, agile development dashboards, code versioning and code review platform, continuous integration and delivery automation, as well as team collaboration features such as wikis and live activity stream. With a rich web based dashboard and integration with popular development tools, Oracle Developer Cloud Service helps deliver better applications faster.
 
@@ -77,19 +77,19 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
     ![](images/200/Picture10.png)  
 
-###Step 3:	Review Agile Board
+### **STEP 3**: Review Agile Board
 
 - Within the **Twitter Feed Marketing Project**, click on **Agile** found on the left hand navigation.
 
     ![](images/200/Picture11.png)  
 
-###Step 4:	Show Microservices Board
+### **STEP 4**: Show Microservices Board
 
 - If the **Microservices** list is not displayed as shown below, then click on the **Board Dropdown**, select **All**, and click on **Microservices**.
 
     ![](images/200/Picture12.png)  
 
-### Step 5: Display the Active Sprint
+### **STEP 5**: Display the Active Sprint
 
 - Click on the **Microservices** Board **Active Sprint**
 
@@ -97,7 +97,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
 ## Create Initial Git Repository
 
-### Step 6: Create Initial Git Repository
+### **STEP 6**: Create Initial Git Repository
 
 To begin development on our Twitter feed microservices, we could start coding from scratch. However, prior to the formal kickoff of this project, you have already started doing some proof-of-concept development outside of the Developer Cloud Service in order to assess the feasibility of your assignment. You want to bring that existing code into the Developer Cloud Service as a starting point for your microservices. You will do that by cloning your external GIT repository into the Developer Cloud Service. Your first step will be to accept your task using the agile board.
 
@@ -135,7 +135,7 @@ To begin development on our Twitter feed microservices, we could start coding fr
 
 ##Create Default Build and Deployment Process
 
-### Step 7:	Create Default Build Process
+### **STEP 7**: Create Default Build Process
 
 Now that we have the source code in our managed GIT repository, we need to create a build process that will be triggered whenever a commit is made to the master branch. We will set up a Maven build process in this section.
 
@@ -198,7 +198,7 @@ Now that we have the source code in our managed GIT repository, we need to creat
 
     ![](images/200/Picture30.png)  
 
-### Step 8:	Create Default Deployment Process
+### **STEP 8**: Create Default Deployment Process
 
 Now that we have successfully built our project, we need to create a deployment configuration that will watch for stable builds and deploy them to a new Application Container Cloud Service instance for testing.
 
@@ -255,7 +255,7 @@ Now that we have successfully built our project, we need to create a deployment 
 
 ## Verify Twitter Feed Microservice deployment
 
-### Step 9:	Change status to Verified
+### **STEP 9**: Change status to Verified
 
 Now that we have successfully deployed the build artifact to the Application Container Cloud Service, we will update our agile board to reflect that status. Although the complexity of the next task (verification) is quite simple, we will still move the task to the “Verify Code” column before manually verifying the new functionality.
 
@@ -271,7 +271,7 @@ Now that we have successfully deployed the build artifact to the Application Con
 
     ![](images/200/Picture41.png)  
 
-### Step 10:	Login to Oracle Application Container Cloud Service
+### **STEP 10**: Login to Oracle Application Container Cloud Service
 
 - Return to the Developer Service Cloud Dashboard tab if it’s still available, then select the Dashboard icon to return to the Oracle Public Cloud Dashboard. Note: It’s possible that you may be required to once again login, if the session has expired.
 
@@ -294,7 +294,7 @@ Now that we have successfully deployed the build artifact to the Application Con
 
     ![](images/200/Picture45.png)  
 
-## Step 11:	Complete Task
+## **STEP 11**: Complete Task
 
 We have now verified that the statictweets microservice has been deployed and functions properly. To finish up this part of the lab, we will mark the Issue as completed in our Sprint.
 
@@ -322,7 +322,7 @@ Now that we have completed the import, build, deployment, and verification of ou
 
 ## Clone Project to Eclipse IDE
 
-### Step 12:	Load Eclipse IDE
+### **STEP 12**: Load Eclipse IDE
 
 - Right Click and select **Run** on the **Eclipse** Desktop Icon
 
@@ -332,7 +332,7 @@ Now that we have completed the import, build, deployment, and verification of ou
 
     ![](images/200/Picture51.png)  
 
-### Step 13:	Create connection to Oracle Developer Cloud Service
+### **STEP 13**: Create connection to Oracle Developer Cloud Service
 
 - We will now create a connection to the Developer Cloud Service. To do this, first click on the menu options **Window -> Show View ->Other**  
 
@@ -363,7 +363,7 @@ Now that we have completed the import, build, deployment, and verification of ou
 
     ![](images/200/Picture57.png)  
 
-### Step 14:	Create a local clone of the repository
+### **STEP 14**: Create a local clone of the repository
 
 - **Expand Developer**, and then **double click** on **Twitter Feed Marketing Project** to activate the project.
 
@@ -385,7 +385,7 @@ Now that we have completed the import, build, deployment, and verification of ou
 
     ![](images/200/Picture62.png)  
 
-### Step 15:	Select the correct Java JDE
+### **STEP 15**: Select the correct Java JDE
 
 - **Click** on the **TwitterFeedMicroservice** Project, then from the **top menu**, select **Project > Properties**
 
@@ -423,7 +423,7 @@ Now that we have completed the import, build, deployment, and verification of ou
 
 ## Test the Local Cloned Services
 
-### Step 16:	Set Feature 2 Status to In Progress
+### **STEP 16**: Set Feature 2 Status to In Progress
 
 In the previous steps we updated the status of the Tasks assign to Bala Gupta using the web interface to the Developer Cloud Service. In this step we will use the Eclipse connection to the Developer Cloud Service to update the status of Bala’s tasks.
 
@@ -439,7 +439,7 @@ In the previous steps we updated the status of the Tasks assign to Bala Gupta us
 
     ![](images/200/Picture73.png)  
 
-### Step 17:	Build and test the TwitterFeedMicroservice
+### **STEP 17**: Build and test the TwitterFeedMicroservice
 
 - **Right Click** on the **TwitterFeedMicroservice** project. Select **Maven > Update Project**
 
@@ -461,7 +461,7 @@ In the previous steps we updated the status of the Tasks assign to Bala Gupta us
 
 The Code we cloned locally contains all the source necessary to filter the Static Twitter Feed. In this section of the lab, we will un-comment the code and test the filter.
 
-### Step 18:	Add Filter
+### **STEP 18**: Add Filter
 
 - In the Project Explorer, **expand** the **TwitterFeedMicroservice > src/main/java > com.example** and **double click** on **StaticTweets.java** to open the source code.
 
@@ -489,7 +489,7 @@ The Code we cloned locally contains all the source necessary to filter the Stati
 
 ## Test the Local Filtered Services
 
-### Step 19:	Run Test
+### **STEP 19**: Run Test
 
 - Run the Test by right clicking on **TwitterFeedMicroservice** and selecting **Run As > Maven Test**
 
@@ -515,7 +515,7 @@ The Code we cloned locally contains all the source necessary to filter the Stati
 - Click on the **Finish button** in the Push Confirmation dialog
 - Click on **Ok** in Push Result dialog
 
-### Step 21:	Complete the Create Filter Task
+### **STEP 21**: Complete the Create Filter Task
 
 - In the lower left Eclipse Task List, double click on **Create Filter on Twitter Feed** task
 
@@ -527,7 +527,7 @@ The Code we cloned locally contains all the source necessary to filter the Stati
 
 ## Create Merge Request
 
-### Step 22:	Review Sprint Status and create Merge Request
+### **STEP 22**: Review Sprint Status and create Merge Request
 
 - Return to the Developer Cloud Service Dashboard in the browser, and select **Agile**. If your default Board is not set to Microservices, then set the Find Board Filter to All, and select the Microservices board.
 
@@ -571,7 +571,7 @@ In the following steps “Lisa” will merge the branch create by “Bala” int
 
 ***NOTE: If you are using a single user environment, you will skip the next step, and go to the following step titled: “Merge Requests”***
 
-### Step 23:	Sign Out as Bala Gupta and Sign In as Lisa Jones
+### **STEP 23**: Sign Out as Bala Gupta and Sign In as Lisa Jones
 
 - Click on the **bala.gupta** dropdown located in the top right corner of the screen. Select **Sign Out**.
 
@@ -595,7 +595,7 @@ In the following steps “Lisa” will merge the branch create by “Bala” int
 
     ![](images/200/image103.png)  
 
-### Step 24:	Merge Requests
+### **STEP 24**: Merge Requests
 
 - Before moving forward, “Lisa Jones” can take a look at the **Burndown** and **Sprint Reports** by clicking on the **Agile** navigation, then the **Reports** button
 
@@ -669,7 +669,7 @@ In the following steps “Lisa” will merge the branch create by “Bala” int
 
 You have two options for managing this code change in the version control system. If you would like more practice with the multi-user workflow, you can start a new branch for this feature, commit to that branch, create a merge request, and approve the merge. We’ll refer to this in the instructions as **Method A**. If you’re comfortable with that workflow, you can switch to master in your local repository, pull the latest revision from the cloud, and commit and push directly to master for this exercise. This will be **Method B**.
 
-### Step 25:	Create New Twitter App
+### **STEP 25**: Create New Twitter App
 
 To generate the unique twitter credentials for our microservices, we need to sign in to twitter and create a new application for this project, then generate access tokens for it.
 
@@ -755,7 +755,7 @@ To generate the unique twitter credentials for our microservices, we need to sig
 
 In this appendix you will download and install Eclipse containing the Oracle Plugin.
 
-### Step 26:	Download Eclipse
+### **STEP 26**: Download Eclipse
 
 - Go to the following URL: http://www.oracle.com/technetwork/developer-tools/eclipse/downloads/index.html
 
@@ -766,7 +766,7 @@ In this appendix you will download and install Eclipse containing the Oracle Plu
 - Once you’ve downloaded eclipse, extract the zip file and install.
 Optionally Configure Proxies
 
-### Step 27:	Configuring Proxies
+### **STEP 27**: Configuring Proxies
 
 If you are running Eclipse behind a firewall and need to configure the proxy setting, there are several updates to be made. First, you need to ensure that Eclipse’s proxy is set, next you need to update the maven proxy setting, then finally, you need to ensure that the Oracle Plugin will work with your proxy settings.
 
@@ -790,7 +790,7 @@ If you are running Eclipse behind a firewall and need to configure the proxy set
 
     ![](images/200/image138.png)
 
-###Step 28:	Update the Eclipse / Maven proxy
+### **STEP 28**: Update the Eclipse / Maven proxy
 
 - From the **Eclipse > Preference** or **Window > Preferences** panel, enter **Maven** into the search box. Click on the Maven **User Settings**. Make note of the directory where the settings.xml file is to be located. In the example below, the Maven User Settings are to be located in the **/home/oracle/.m2** directory
 

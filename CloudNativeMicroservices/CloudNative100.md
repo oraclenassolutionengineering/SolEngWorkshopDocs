@@ -6,7 +6,7 @@ Update: January 28, 2017
 
 This is the first of several labs that are part of the **Oracle Public Cloud DevOps Cloud Native Microservices workshop.** This workshop will walk you through the Software Development Lifecycle (SDLC) for a Cloud Native project that will create and use several Microservices.
 
-You will take on 3 Personas during the workshop. The **Project Manager Persona** will create the projects, add tasks and features to be worked on, and assign tasks to developers.  The Project Manager will then start the initial sprint. The Java Developer persona will develop a new twitter feed service that will allow for retrieval and filtering of twitter data. The **JavaScript Developer** persona will develop a new Twitter Marketing UI that will display the twitter data to allow for analysis.  During the workshop, you will get exposure to Oracle Developer Cloud Service and Oracle Application Container Cloud Service. 
+You will take on 3 Personas during the workshop. The **Project Manager Persona** will create the projects, add tasks and features to be worked on, and assign tasks to developers.  The Project Manager will then start the initial sprint. The Java Developer persona will develop a new twitter feed service that will allow for retrieval and filtering of twitter data. The **JavaScript Developer** persona will develop a new Twitter Marketing UI that will display the twitter data to allow for analysis.  During the workshop, you will get exposure to Oracle Developer Cloud Service and Oracle Application Container Cloud Service.
 
 Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
@@ -27,7 +27,7 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
 ## Create Developer Cloud Service Project
 
-### STEP 1: Login to your Oracle Cloud Account
+### **STEP 1**: Login to your Oracle Cloud Account
 - From any browser, go to the URL:
     `https://cloud.oracle.com`
 
@@ -59,7 +59,7 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
     ![](images/100/Picture100-5.png)
 
-### Step 2: Login to Developer Cloud Service
+### **STEP 2**: Login to Developer Cloud Service
 
 Oracle Developer Cloud Service provides a complete development platform that streamlines team development processes and automates software delivery. The integrated platform includes an issue tracking system, agile development dashboards, code versioning and review platform, continuous integration and delivery automation, as well as team collaboration features such as wikis and live activity stream. With a rich web based dashboard and integration with popular development tools, Oracle Developer Cloud Service helps deliver better applications faster.
 
@@ -75,7 +75,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
     ![](images/100/Picture100-8.png)
 
-### Step 3: Create Developer Cloud Service Project
+### **STEP 3**: Create Developer Cloud Service Project
 
 - Click **New Project** to start the project create wizard.
 - On Details screen enter the following data and click on **Next**.
@@ -108,7 +108,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
 **Note:** As previously mentioned, ***if you are not allowed to have multiple users in your Corporate or Trial accounts, you will skip step 4.*** When in subsequent steps/labs you are asked to log in as different users responsible for different roles, you will physically perform the tasks as the same user, but you should mentally assume the role of a different persona.
 
-### Step 4: Add Team Owners to the Project
+### **STEP 4**: Add Team Owners to the Project
 
 - Click on the **Team** icon ![](images/100/TeamIcon.png) found on the far right side of the window.
 - To add new Team Members, click **New Member**
@@ -127,7 +127,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
 In this step you are still connected in the logical role of the Project Manager, ***Lisa Jones***.
 
-### Step 5: Create and Issue for the initial GIT Repository Creation
+### **STEP 5**: Create and Issue for the initial GIT Repository Creation
 
 - Click **Issues** on left hand navigation panel to display the Track Issues page.
 
@@ -151,14 +151,14 @@ In this step you are still connected in the logical role of the Project Manager,
 
     ![](images/100/Picture100-17.png)
 
-### Step 6: Create Issue for Update Twitter Credentials
+### **STEP 6**: Create Issue for Update Twitter Credentials
 
 - Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**.
 
     **Summary:** `Create Filter on Twitter Feed`
-    
+
     **Description:** `Create Filter to allow user to supply text to reduce the amount of data returned by the Twitter feed`
-    
+
     **Type:** `Feature`
 
     **Owner:** `Bala Gupta (or you if another user is not available)`
@@ -167,7 +167,7 @@ In this step you are still connected in the logical role of the Project Manager,
 
     ![](images/100/Picture100-18.png)
 
-### Step 7: Create Issue for initial GIT Repository creation
+### **STEP 7**: Create Issue for initial GIT Repository creation
 
 - Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**.
 
@@ -183,7 +183,7 @@ In this step you are still connected in the logical role of the Project Manager,
 
     ![](images/100/Picture100-19.png)
 
-### Step 8: Step 1:	Create Issue for Displaying Twitter Feed
+### **STEP 8**: Create Issue for Displaying Twitter Feed
 
 - Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**.
 
@@ -220,7 +220,7 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
 - **Active Sprints view** – Lists all active Sprints of the Board and enables you to update an Issue status simply by dragging and dropping it to the respective status columns.
 - **Reports view** – select the Burndown Chart tab to display the amount of work left to do in a Sprint or use the Sprint Report tab to list open and completed Issues of a Sprint.
 
-###Step 9: Create Agile Board
+### **STEP 9**: Create Agile Board
 
 - Click **Agile** on the Left Side Menu to display a page listing all existing Boards
 
@@ -234,7 +234,7 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
 
     ![](images/100/Picture100-24.png)
 
-### Step 10: Create Sprint
+### **STEP 10**: Create Sprint
 - We will now create our first Sprint. Click **New Sprint**. Enter the following data and click **OK.**
 
     **Name:** `Sprint 1 - Initial Development`
@@ -243,7 +243,7 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
 
     ![](images/100/Picture100-25.png)
 
-### Step 1:	Add Backlog Issues to Sprint
+### **STEP 1**:	Add Backlog Issues to Sprint
 
 - Next we want to add the backlog issues to the newly created spring. **Drag and drop** the **4 issues** one at a time upward onto the **Sprint 1** section. This will add the issues to the sprint.
 
@@ -253,7 +253,7 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
 
 ## Customize Agile Board
 
-### Step 12: Customize Board
+### **STEP 12**: Customize Board
 
 In the following step you will customize an Agile Board, and add a new Progress State. If you desire more information about States and Conditions, the following link will provide a tutorial: http://www.oracle.com/webfolder/technetwork/tutorials/obe/cloud/developer/AgileDevelopment/AgileDevelopment.html
 
@@ -283,7 +283,7 @@ In the following step you will customize an Agile Board, and add a new Progress 
 
     ![](images/100/Picture100-33.png)
 
-### Step 13: Start Sprint
+### **STEP 13**: Start Sprint
 
 - Click **Start Sprint.** Leave the defaults and click **Start**
 

@@ -26,7 +26,7 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
 ## Explore Developer Cloud Service
 
-### STEP 1: Login to your Oracle Cloud Account
+### **STEP 1**: Login to your Oracle Cloud Account
 
 - If you just completed lab 200, or if you are still logged in as Lisa.Jones, you will need to first sign out before continuing this lab. Sign out by clicking on the user’s name (lisa.jones) at the top right corner of the screen, then selecting **Sign Out** from the dropdown menu.
 
@@ -58,7 +58,7 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
     ![](images/300/image007.png)  
 
-### **Step 2:**	Login to Developer Cloud Service
+### **STEP 2:**	Login to Developer Cloud Service
 
 Oracle Developer Cloud Service provides a complete development platform that streamlines team development processes and automates software delivery. The integrated platform includes issue tracking system, agile development dashboards, code versioning and code review platform, continuous integration and delivery automation, as well as team collaboration features such as wikis and live activity stream. With a rich web based dashboard and integration with popular development tools, Oracle Developer Cloud Service helps deliver better applications faster.
 
@@ -74,7 +74,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
     ![](images/300/image010.png)  
 
-## Step 3:	Review Agile Board
+## **STEP 3**: Review Agile Board
 
 - Click **Twitter Feed Marketing Project** to access the project.
 
@@ -94,7 +94,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
 ## Create Initial Git Repository
 
-## Step 4:	Create Initial Git Repository
+## **STEP 4**: Create Initial Git Repository
 
 As in the previous lab, we could start coding this application from scratch at this point. However, one of our colleagues has already begun working on the shell for our web application outside of the Developer Cloud Service. We want to use his work as a starting point and extend it to incorporate our twitter microservices. To pull his code into the Developer Cloud Service, we will clone his external GIT repository. First let’s update our agile board to show that we are working on this task:
 
@@ -126,7 +126,7 @@ As in the previous lab, we could start coding this application from scratch at t
 
 ## Create Default Build and Deployment Process
 
-### Step 5:	Create Default Build Process
+### **STEP 5**: Create Default Build Process
 
 Now that we have the source code in our managed GIT repository, we need to create a build process that will be triggered whenever a commit is made to the master branch. We will set up a shell script build process in this section.
 
@@ -172,7 +172,7 @@ Now that we have the source code in our managed GIT repository, we need to creat
 
     ![](images/300/image029.png)  
 
-### Step 6:	Create Default Deployment Process
+### **STEP 6**: Create Default Deployment Process
 
 Now that we have an automated build process, we will set up a deployment configuration that will push our build artifacts to a node.js environment running on the Application Container Cloud Service whenever a successful build occurs.
 
@@ -222,7 +222,7 @@ Now that we have an automated build process, we will set up a deployment configu
 
 ## Verify default deployment of Twitter Marketing UI
 
-### Step 7:	Change status to Verified
+### **STEP 7**: Change status to Verified
 
 Now that we have successfully deployed the build artifact to the Application Container Cloud Service, we will update our agile board to reflect that status. Although the complexity of the next task (verification) is quite simple, we will still move the task to the “Verify Code” column before manually verifying the new functionality.
 
@@ -238,7 +238,7 @@ Now that we have successfully deployed the build artifact to the Application Con
 
     ![](images/300/image041.png)  
 
-## Step 8: Login to Oracle Application Container Cloud Service
+## **STEP 8**: Login to Oracle Application Container Cloud Service
 
 - Navigate back to the Oracle Public Cloud tab. Click **Dashboard** to return back to main Cloud Service Dashboard.
 
@@ -256,7 +256,7 @@ Now that we have successfully deployed the build artifact to the Application Con
 
     ![](images/300/image046.png)  
 
-### Step 9: Complete Task
+### **STEP 9**: Complete Task
 
 We have now verified that our application has been deployed and is functional. To finish up this part of the lab we will want to mark the Issue as completed in our Sprint.
 
@@ -278,7 +278,7 @@ We have now verified that our application has been deployed and is functional. T
 
 Now that we have our default application we want to extend this application to add the display of the twitter feed. For this task we will use Brackets text editor to pull down the code from Developer Cloud Service and add in our modifications. Once the new code is ready for deployment we will check the code in on a branch so that it can go through a code review prior to build and deployment.
 
-### Step 10: Move Task to In Progress
+### **STEP 10**: Move Task to In Progress
 
 To start this part of the lab we will want to mark the Issue as In Progress in our Sprint.
 
@@ -294,7 +294,7 @@ To start this part of the lab we will want to mark the Issue as In Progress in o
 
 ## Clone Project to Brackets Text Editor
 
-### Step 11:	Start Brackets Text Editor
+### **STEP 11**:	Start Brackets Text Editor
 
 - Start **Brackets** text editor. How you start Brackets will depend on your OS. We have documented how to start Brackets from our OEL image.
 
@@ -308,13 +308,13 @@ To start this part of the lab we will want to mark the Issue as In Progress in o
 
     ![](images/300/image053.png)  
 
-### Step 12: Copy GIT URL
+### **STEP 12**: Copy GIT URL
 
 - Back in Developer Cloud Service, click on **Project**. On right side, select the URL for **TwitterMarketingUIMicroservice.git**. Right click and select **Copy**
 
     ![](images/300/image054.png)  
 
-### Step 13: Clone GIT Repository
+### **STEP 13**: Clone GIT Repository
 
 - Back in the Brackets editor, on the right hand side, click ![](images/300/image055.png) GIT icon.
 
@@ -332,7 +332,7 @@ To start this part of the lab we will want to mark the Issue as In Progress in o
 
     ![](images/300/image059.png)  
 
-### Step 14: Run Live Preview.
+### **STEP 14**: Run Live Preview.
 
 - Before we make our code changes lets first run the code locally.
 
@@ -346,7 +346,7 @@ To start this part of the lab we will want to mark the Issue as In Progress in o
 
 ## Add Code to display Twitter Feed in Table Format
 
-### Step 15:	Modify graphics.html
+### **STEP 15**:	Modify graphics.html
 
 - Expand **doc_root -> js -> views** and click **graphics.html**.
 
@@ -373,7 +373,7 @@ To start this part of the lab we will want to mark the Issue as In Progress in o
 
 ![](images/300/image064.png)  
 
-### Step 16: Modify graphics.js
+### **STEP 16**: Modify graphics.js
 
 - Expand **doc_root -> js -> viewModels** and click **graphics.js**.
 
@@ -444,7 +444,7 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojtable'], function (oj, ko) {
 
 ![](images/300/image069.png)  
 
-### Step 17: Test new changes
+### **STEP 17**: Test new changes
 
 - Click ![](images/300/image070.png) Live Preview to test out the new changes.
 
@@ -460,7 +460,7 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojtable'], function (oj, ko) {
 
 ## Create a Branch and Commit Code
 
-### Step 18: Create a new Branch and Commit Code
+### **STEP 18**: Create a new Branch and Commit Code
 
 - First we need to create a new branch to check in all of our changes for this feature. In the left hand navigation panel, select **master** and click **Create new branch**.
 
@@ -490,7 +490,7 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojtable'], function (oj, ko) {
 
     ![](images/300/image081.png)
 
-### Step 19: Complete the Display Twitter Feed Task
+### **STEP 19**: Complete the Display Twitter Feed Task
 
 - Back in the Developer Cloud Service window, click **Agile**, followed by clicking **Active Sprints**.
 
@@ -504,7 +504,7 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojtable'], function (oj, ko) {
 
 ## Create Merge Request
 
-### Step 20: Review Sprint Status and create Merge Request
+### **STEP 20**: Review Sprint Status and create Merge Request
 
 - Click on the **Code** tab, select the **Feature4** branch and then click on the **Commits** sub tab. Now view the recent commit that we made to branch from Brackets.
 
@@ -544,7 +544,7 @@ In the following steps “Lisa” will merge the branch created by “John” in
 
 ***NOTE: If you are using a single user environment, you will skip the next step, and go to the following step titled: “Merge Requests”***
 
-### Step 21: Sign Out as John Dunbar and Sign In as Lisa Jones
+### **STEP 21**: Sign Out as John Dunbar and Sign In as Lisa Jones
 
 - Click on the **john.dunbar** dropdown located in the top right corner of the screen. Select **Sign Out**.
 
@@ -569,7 +569,7 @@ In the following steps “Lisa” will merge the branch created by “John” in
 
     ![](images/300/image093.png)
 
-## Step 22: Merge Requests
+## **STEP 22**: Merge Requests
 
 - Click on **Merge Requests**. Select the **Assigned to Me** search. After the search completes, click on the **Merge Feature 4 into master** assigned request.
 
@@ -627,7 +627,7 @@ In the following steps “Lisa” will merge the branch created by “John” in
 
 Download and Install Git
 
-## Step 23: Download Git
+## **STEP 23**: Download Git
 
 - Go to the following URL: https://git-scm.com/downloads
 
@@ -651,7 +651,7 @@ Download and Install Git
 
 ## Download and Install Brackets Text Editor
 
-### Step 24: Download Brackets Text Editor
+### **STEP 24**: Download Brackets Text Editor
 
 - Go to the following URL: http://brackets.io
 
@@ -673,7 +673,7 @@ Download and Install Git
 
 ## Start Brackets and Configure Git
 
-### Step 25: Start Brackets and Configure Git
+### **STEP 25**: Start Brackets and Configure Git
 
 - Create directory T**witterMarketingUI**. From Windows Explorer navigate to the directory **TwitterMarketingUI**, right click and select **Open as Brackets Project**
 
