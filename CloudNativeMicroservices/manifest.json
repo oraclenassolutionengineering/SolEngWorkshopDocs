@@ -14,6 +14,12 @@
                 "filename": "CloudNative200.md",
                 "title": "Lab 200: Continuous Delivery of Java Microservices",
                 "description": "Access Developer Cloud Service, Import external GIT Repository, Import project into Elicpse, and Build and Delpoy a project using Developer Cloud Service and Oracle Application Container Cloud Service."
+            },
+            {
+                "number": "300",
+                "filename": "CloudNative300.md",
+                "title": "Lab 300: Cloud Native Rapid Javascript Devlopment with node.js",
+                "description": "Access Developer Cloud Service, Import Code from external Git Repository, Import Project into Brackets, then Build and Deploy project using Developer Cloud Service and Oracle Application Container Cloud Service"
             }
         ]
     }

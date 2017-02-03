@@ -219,9 +219,13 @@ Now that we have successfully built our project, we need to create a deployment 
     ![](images/200/Picture33.png)  
 
 - Enter the following data:
+
   - **Data Center**: `<Your Assigned Datacenter>` ***(Ask instructor if needed)***
+
   - **Identity Domain**: `<Your Identity Domain>`
+
   - **Username**: `bala.gupta` **(or your appropriate username if running as single user)**
+
   - **Password**: `<Supplied Password>`
 
 - Click **Test Connection**. If Successful, click **Use Connection**:
