@@ -28,7 +28,7 @@
 
 ## Lab 300: Cloud Native Rapid Javascript Devlopment with node.js
 
-**Documenation**: CloudNative200.md
+**Documenation**: CloudNative300.md
 
 ### Objectives
 
@@ -36,3 +36,14 @@
 - Import Code from external Git Repository
 - Import Project into Brackets
 - Build and Deploy project using Developer Cloud Service and Oracle Application Container Cloud Service
+
+## Lab 400:  Cloud Native Develper Cloud Service Administration
+
+**Documenation**: CloudNative400.md
+
+### Objectives
+
+- Access Developer Cloud Service
+- Complete Sprint
+- Run Backlog and Sprint Reports
+- Review Administrative Tasks
