@@ -75,7 +75,7 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
 ## Review Administrative Features
 
-### **STEP 3**: Review Administrative Options
+### **STEP 4**: Review Administrative Options
 
 - Click on **Administration** navigation to view the available administrative options. Click on the **Properties icon**.
 
