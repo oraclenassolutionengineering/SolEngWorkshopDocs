@@ -296,7 +296,7 @@ Now that we have successfully deployed the build artifact to the Application Con
 
 ### **STEP 11**: Complete Task
 
-We have now verified that the statictweets microservice has been deployed and functions properly. To finish up this part of the lab, we will mark the Issue as completed in our Sprint.
+We have now verified that the statictweets microservice has been deployed and functions properly. To finish up this part of the lab, we will mark the Issue as completed in the Sprint.
 
 - Back in the Developer Cloud Service window, click **Agile**, followed by clicking Active Sprints.
 
