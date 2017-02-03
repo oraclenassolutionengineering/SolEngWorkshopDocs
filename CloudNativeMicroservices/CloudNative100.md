@@ -106,11 +106,12 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
 ## Add Team Members (Owners) to the Project
 
-**Note:** As previously mentioned, ***if you are not allowed to have multiple users in your Corporate or Trial accounts, you will skip step 4.*** When in subsequent steps/labs you are asked to log in as different users responsible for different roles, you will physically perform the tasks as the same user, but you should mentally assume the role of a different persona.
-
 ### **STEP 4**: Add Team Owners to the Project
 
+**Note:** As previously mentioned, ***if you are not allowed to have multiple users in your Corporate or Trial accounts, you will skip step 4.*** When in subsequent steps/labs you are asked to log in as different users responsible for different roles, you will physically perform the tasks as the same user, but you should mentally assume the role of a different persona.
+
 - Click on the **Team** icon ![](images/100/TeamIcon.png) found on the far right side of the window.
+
 - To add new Team Members, click **New Member**
 
     ![](images/100/Picture100-14.png)
@@ -125,9 +126,9 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
 ## Create Issues for Twitter Feed Microservice
 
-In this step you are still connected in the logical role of the Project Manager, ***Lisa Jones***.
-
 ### **STEP 5**: Create and Issue for the initial GIT Repository Creation
+
+In this step you are still connected in the logical role of the Project Manager, ***Lisa Jones***.
 
 - Click **Issues** on left hand navigation panel to display the Track Issues page.
 

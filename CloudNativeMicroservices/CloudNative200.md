@@ -290,7 +290,7 @@ Now that we have successfully deployed the build artifact to the Application Con
 - Append `/statictweets` to the end of the URL in the browser, and press return (e.g.):
 `https://javatwittermicroservice-.apaas.em2.oraclecloud.com/statictweets`
 
-  Note: The URL should return a JSON array containing a Static Twitter feed. Note: If you desire to see a formatted view of the JSON, open a new tab and search Google for “JSONViewer chrome plugin” – After you install the Chrome Plugin and re-submit the URL, you will be able to view the JSON in a more readable format.
+    Note: The URL should return a JSON array containing a Static Twitter feed. Note: If you desire to see a formatted view of the JSON, open a new tab and search Google for “JSONViewer chrome plugin” – After you install the Chrome Plugin and re-submit the URL, you will be able to view the JSON in a more readable format.
 
     ![](images/200/Picture45.png)  
 
@@ -631,6 +631,8 @@ In the following steps “Lisa” will merge the branch create by “Bala” int
 
 ## Test the JavaTwitterMicroservice in the Cloud
 
+### **STEP 25**: Test Microservice
+
 - Once the service has successfully deployed, click on the **JavaTwitterMicroservice** link
 
     ![](images/200/image113.png)  
@@ -669,7 +671,7 @@ In the following steps “Lisa” will merge the branch create by “Bala” int
 
 You have two options for managing this code change in the version control system. If you would like more practice with the multi-user workflow, you can start a new branch for this feature, commit to that branch, create a merge request, and approve the merge. We’ll refer to this in the instructions as **Method A**. If you’re comfortable with that workflow, you can switch to master in your local repository, pull the latest revision from the cloud, and commit and push directly to master for this exercise. This will be **Method B**.
 
-### **STEP 25**: Create New Twitter App
+### **STEP 26**: Create New Twitter App
 
 To generate the unique twitter credentials for our microservices, we need to sign in to twitter and create a new application for this project, then generate access tokens for it.
 
@@ -755,7 +757,7 @@ To generate the unique twitter credentials for our microservices, we need to sig
 
 In this appendix you will download and install Eclipse containing the Oracle Plugin.
 
-### **STEP 26**: Download Eclipse
+### **STEP 27**: Download Eclipse
 
 - Go to the following URL: http://www.oracle.com/technetwork/developer-tools/eclipse/downloads/index.html
 
@@ -766,7 +768,7 @@ In this appendix you will download and install Eclipse containing the Oracle Plu
 - Once you’ve downloaded eclipse, extract the zip file and install.
 Optionally Configure Proxies
 
-### **STEP 27**: Configuring Proxies
+### **STEP 28**: Configuring Proxies
 
 If you are running Eclipse behind a firewall and need to configure the proxy setting, there are several updates to be made. First, you need to ensure that Eclipse’s proxy is set, next you need to update the maven proxy setting, then finally, you need to ensure that the Oracle Plugin will work with your proxy settings.
 
@@ -790,7 +792,7 @@ If you are running Eclipse behind a firewall and need to configure the proxy set
 
     ![](images/200/image138.png)
 
-### **STEP 28**: Update the Eclipse / Maven proxy
+### **STEP 29**: Update the Eclipse / Maven proxy
 
 - From the **Eclipse > Preference** or **Window > Preferences** panel, enter **Maven** into the search box. Click on the Maven **User Settings**. Make note of the directory where the settings.xml file is to be located. In the example below, the Maven User Settings are to be located in the **/home/oracle/.m2** directory
 
