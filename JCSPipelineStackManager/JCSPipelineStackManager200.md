@@ -86,7 +86,7 @@ Now that we have the configuration code in our managed GIT repository, we need t
 
     ![](images/200/Picture200-10.png)
 
-- Click the **Source Control** tab. Click **Git** and select the **JCSStackAlphaInfrastructure.git* from the drop down.
+- Click the **Source Control** tab. Click **Git** and select **JCSStackAlphaInfrastructure.git** from the drop down. Expand **Advanced Git Settings** and enter **Alpha-JCS-DBCS-Template.yaml**
 
     ![](images/200/Picture200-11.png)
 
@@ -100,7 +100,7 @@ Now that we have the configuration code in our managed GIT repository, we need t
 curl --request POST \
   --user <opc username>:<opc password> \
   --url https://psm.europe.oraclecloud.com/paas/api/v1.1/instancemgmt/<OPC Identity Domain>/templates/cst/instances \
-  --header 'X-ID-TENANT-NAME: <OPC Identity Domain> \
+  --header 'X-ID-TENANT-NAME: <OPC Identity Domain>' \
   --header 'content-type: multipart/form-data' \
   --form template=@Alpha-JCS-DBCS-Template.yaml
 ```
@@ -110,3 +110,5 @@ curl --request POST \
 - Click **Save** to complete the configuration.
 
 - Click the **Build Now** button to start the build immediately.
+
+    ![](images/200/Picture200-14.png)
