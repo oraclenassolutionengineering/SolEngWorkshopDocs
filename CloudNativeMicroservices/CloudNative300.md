@@ -587,46 +587,91 @@ Step 21:	Merge Requests
 
 - When the new browser tab loads, click Graphics to display twitter feed data.
 
+    ![](images/300/image102.png)
+
 - To complete the Sprint Feature, click on Agile in the Twitter Feed Marketing Project Dashboard. Then click on the Active Sprints button.
+
+    ![](images/300/image103.png)
 
 - Complete the feature request by Dragging and Dropping Feature 4 (Display Twitter Feed in Table Format) from the Verify Column to the Completed Column.
 
+    ![](images/300/image104.png)
+
 - Set the Status to VERIFIED – FIXED and click OK
 
+    ![](images/300/image105.png)
+
 - You are now ready to move to the next lab.
-Appendix 1 – Installing Brackets and Git
+
+# Appendix 1 – Installing Brackets and Git
+
 Download and Install Git
 Step 22:	Download Git
+
 - Go to the following URL: https://git-scm.com/downloads
+
+    ![](images/300/image106.png)
 
 - Select you OS. In our example we will show how to install on Windows. Click Windows Download and click Save File
 
+    ![](images/300/image107.png)
+
 - Select you download location and click Save. We will use D:\Software
+
+    ![](images/300/image108.png)
 
 - Open Windows Explorer and navigate you where you downloaded the Git executable. Double click on Git executable to start install process.
 
+    ![](images/300/image109.png)
+
 - Run through the installation process
 
-Download and Install Brackets Text Editor
-Step 23:	Download Brackets Text Editor
+    ![](images/300/image110.png)
+
+## Download and Install Brackets Text Editor
+
+### Step 24: Download Brackets Text Editor
+
 - Go to the following URL: http://brackets.io
+
+    ![](images/300/image111.png)
 
 - Click Download Brackets 1.7 then click Save File
 
+    ![](images/300/image112.png)
+
 - Select you download location and click Save. We will use D:\Software
+
+    ![](images/300/image113.png)
 
 - Open Windows Explorer and navigate you where you downloaded Brackets. Double click on Git executable to start install process.
 
+    ![](images/300/image114.png)
+
 - Run through the installation process
-Start Brackets and Configure Git
-Step 24:	Start Brackets and Configure Git
+
+## Start Brackets and Configure Git
+
+### Step 25: Start Brackets and Configure Git
+
 - Create directory TwitterMarketingUI. From Windows Explorer navigate to the directory TwitterMarketingUI, right click and select Open as Brackets Project
 
+    ![](images/300/image115.png)
+
 - Select File -> Extension Manager…
+
 - In search window enter GIT. Click Install for Brackets Git
+
+    ![](images/300/image116.png)
 
 - After install completes, leave defaults for Git Settings and click Save
 
+    ![](images/300/image117.png)
+
 - Click OK to restart Brackets
 
+    ![](images/300/image118.png)
+
 - You will now see the Git icon on the right hand panel
+
+    ![](images/300/image119.png)
