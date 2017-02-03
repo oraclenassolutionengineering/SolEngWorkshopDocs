@@ -126,7 +126,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
 ## Create Issues for Twitter Feed Microservice
 
-### **STEP 5**: Create and Issue for the initial GIT Repository Creation
+### **STEP 5**: Create Issue for the initial GIT Repository Creation
 
 In this step you are still connected in the logical role of the Project Manager, ***Lisa Jones***.
 
