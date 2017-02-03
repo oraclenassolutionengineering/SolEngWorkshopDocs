@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Lab Guides</title>
+  <title>Oracle Workshops</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
@@ -22,12 +22,12 @@
 
 </head>
 <body ng-cloak ng-controller="labGuideController">
-    <md-toolbar class="md-hue-2" layout-padding>
+    <md-toolbar class="md-hue-2" flex="none" layout-padding>
         <div class="md-toolbar-tools">
             <md-button class="md-icon-button md-raised md-accent" aria-label="Settings" ng-disabled="false" ng-click="toggleLeft()">
                 <md-icon md-svg-icon="images/menu.svg"></md-icon>
             </md-button>
-            <h2 id="title">
+            <h2>
                 <span>{{manifest.workshop.title}}</span>
             </h2>
 
@@ -65,12 +65,12 @@
     <div id='introduction' ng-show='!selection.lab' layout="column" layout-margin layout-padding layout-align="start center">
         <p ng-bind-html='manifest.workshop.description'></p>
 
-        <p>Open the navigation menu using the hamburger icon in the menu bar to choose a lab guide and get started, or click the button below to begin the first lab.</p>
+        <p>Open the navigation menu using the hamburger icon (<md-icon md-svg-icon="images/menu.svg"></md-icon>) in the menu bar to choose a lab guide and get started, or click the menu button below.</p>
         <div layout="row">
             <md-button ng-click="toggleLeft()" class="md-accent md-raised">
                 Menu
             </md-button>
-            <md-button ng-click="getLabGuide(manifest.workshop.labs[0])" class="md-accent md-raised">
+            <md-button ng-click="getLabGuide(manifest.workshop.labs[0])" class="md-accent md-raised" ng-if="false">
                 Lab {{manifest.workshop.labs[0].number}}
             </md-button>
         </div>
@@ -118,6 +118,32 @@
                     $scope.htmlContent = html;
                     lab.htmlContent = html;
                     $scope.selection.lab = true;
+                    setTimeout(function() {
+//                        $("h1").nextUntil("h1").hide();
+//                        $("h2").nextUntil("h1, h2, h3").hide();
+                        $("#labguide h3").nextUntil("#labguide h1, #labguide h2, #labguide h3").hide();
+                        $("#labguide h3").addClass('plus');
+//                        $("h1").click(function() {
+//                            $(this).nextUntil("h1").toggle();
+//                        });
+//                        $("h2").click(function() {
+//                            $(this).nextUntil("h1, h2").toggle();
+//                        });
+                        $("#labguide h3").click(function() {
+                            
+                            if($(this).hasClass('plus')) {
+                              $(this).nextUntil("#labguide h1, #labguide h2, #labguide h3").fadeIn();
+                              $(this).addClass('minus');
+                              $(this).removeClass('plus');
+                            } 
+                            else if($(this).hasClass('minus')) {
+                              $(this).nextUntil("#labguide h1, #labguide h2, #labguide h3").fadeOut();
+                              $(this).addClass('plus');
+                              $(this).removeClass('minus');
+                            } 
+                        });
+                        
+                    }, 1000);
 
                 }, function(msg) {
                     console.log('Error getting lab guide markdown!');
@@ -141,6 +167,7 @@
     function replaceAll(str, find, replace) {
         return str.replace(new RegExp(find, 'g'), replace);
     }
+    
     
 //    var mdContent = '';  
 //    $.ajax('JCSPipelineStackManager100.md')
