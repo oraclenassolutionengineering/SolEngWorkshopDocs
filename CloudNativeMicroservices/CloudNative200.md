@@ -171,7 +171,7 @@ Now that we have the source code in our managed GIT repository, we need to creat
 
     ![](images/200/Picture26.png)  
 
-- Change **Goals** to clean `assembly:assembly`
+- Change **Goals** to `clean assembly:assembly`
 
     ![](images/200/Picture27.png)  
 
@@ -261,7 +261,7 @@ Now that we have successfully deployed the build artifact to the Application Con
 
     ![](images/200/Picture39.png)  
 
-- In the Change Progress popup, click on **OK**
+- In the Change Progress popup, click **OK**
 
     ![](images/200/Picture40.png)  
 
@@ -302,7 +302,7 @@ We have now verified that the statictweets microservice has been deployed and fu
 
     ![](images/200/Picture46.png)  
 
-- In the Change Progress popup click **OK**.
+- In the Change Progress popup click **Next** and then **OK**.
 
     ![](images/200/Picture47.png)  
 
@@ -405,7 +405,7 @@ Now that we have completed the import, build, deployment, and verification of ou
 
     ![](images/200/Picture67.png)  
 
-- **Click** on the **JRE home: Director** button
+- **Click** on the **JRE home: Directory** button
 
     ![](images/200/Picture68.png)  
 
@@ -493,7 +493,9 @@ The Code we cloned locally contains all the source necessary to filter the Stati
 
     ![](images/200/Picture83.png)  
 
-- Once the test runs, you’ll see the Static Twitter feed returned for both the unfiltered and filtered tests. You should not see and Failures.
+- Once the test runs, you’ll see the Static Twitter feed returned for both the unfiltered and filtered tests. You should not see any Failures.
+
+- right click on **TwitterFeedMicroservice** and select **Team > Switch To > New Branch**
 
     ![](images/200/image087.png)  
 
@@ -537,7 +539,7 @@ The Code we cloned locally contains all the source necessary to filter the Stati
 
     ![](images/200/image094.png)  
 
-- Now that Bala Gupta has completed the task of adding the search filter, a **Merge Request** can be created by Bala and assigned to Lisa Jones. Click on the Merge Requests, and then click on the **New Request** button.
+- Now that Bala Gupta has completed the task of adding the search filter, a **Merge Request** can be created by Bala and assigned to Lisa Jones. Click on **Merge Requests** on navigation panel and then click on the **New Merge Request** button.
 
 - Enter the following information into the **New Merge Request** and click **Next**
 
@@ -631,7 +633,7 @@ In the following steps “Lisa” will merge the branch create by “Bala” int
 
 ### **STEP 25**: Test Microservice
 
-- Once the service has successfully deployed, click on the **JavaTwitterMicroservice** link
+- Once the service has successfully deployed, navigate to **Deployments** and click on the **JavaTwitterMicroservice** link
 
     ![](images/200/image113.png)  
 
@@ -651,7 +653,7 @@ In the following steps “Lisa” will merge the branch create by “Bala” int
 
     ![](images/200/image117.png)  
 
-- Set the Status to **VERIFIED – FIXED** and click **OK**
+- Set the Status to **VERIFIED – FIXED** and click **Next** and then **OK**
 
     ![](images/200/image118.png)  
 
