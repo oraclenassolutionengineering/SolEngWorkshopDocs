@@ -181,14 +181,15 @@ Now we will create a build process that will provision a new Oracle Stack every 
 - Enter the following REST call for the **Execute Shell Command:**
 
     ```
+source ./JCSBuild.conf
 curl --request POST \
   --user <OPC username>:<OPC password> \
   --url https://psm.europe.oraclecloud.com/paas/api/v1.1/instancemgmt/<OPC Identity Domain>/services/stack/instances \
   --header 'X-ID-TENANT-NAME: <OPC Identity Domain>' \
   --header 'content-type: multipart/form-data' \
-  --form name=Alpha01 \
+  --form name=$ServiceName \
   --form template=Alpha-JCS-DBCS-Template \
-  --form 'parameterValues={"commonPwd":"Alpha2014_", Storage-gse00003362/Alpha01Backup}'
+  --form 'parameterValues={"commonPwd":"'"$CommonPassword"'", "backupStorageContainer":"'"$BackupStorageContainer"'", "cloudStoragePassword":"<OPC password>"}}'
 ```
     **Note:** Replace <OPC > with your OPC credentials
 
