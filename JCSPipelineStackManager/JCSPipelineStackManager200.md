@@ -4,7 +4,7 @@ Update: January 29, 2017
 
 ## Introduction
 
-This is the second of several labs that are part of the **DevOps JCS Pipeline using Oracle Stack Manger workshop**. This workshop will walk you through the Software Development Lifecycle (SDLC) for a Java Cloud Service (JCS) project that goes through Infrastructure as Code and deployment of Struts application.
+This is the second of several labs that are part of the **DevOps JCS Pipeline using Oracle Stack Manger workshop**. This workshop will walk you through the Software Development Lifecycle (SDLC) for a Java Cloud Service (JCS) project that goes through Infrastructure as Code and deployment of a Struts application.
 
 In the first lab (100), the Project Manager created a new project in the Developer Cloud Service, created and assigned tasks to the developers of this application. In this lab, you will assume the persona of Operations, who will be tasked with creating an Infrastructure as Code pipeline for the provisioning of Alpha Office Java Cloud Service (JCS) environment.
 
@@ -181,14 +181,15 @@ Now we will create a build process that will provision a new Oracle Stack every 
 - Enter the following REST call for the **Execute Shell Command:**
 
     ```
+source ./JCSBuild.conf
 curl --request POST \
   --user <OPC username>:<OPC password> \
   --url https://psm.europe.oraclecloud.com/paas/api/v1.1/instancemgmt/<OPC Identity Domain>/services/stack/instances \
   --header 'X-ID-TENANT-NAME: <OPC Identity Domain>' \
   --header 'content-type: multipart/form-data' \
-  --form name=Alpha01 \
+  --form name=$ServiceName \
   --form template=Alpha-JCS-DBCS-Template \
-  --form 'parameterValues={"commonPwd":"Alpha2014_", Storage-gse00003362/Alpha01Backup}'
+  --form 'parameterValues={"commonPwd":"'"$CommonPassword"'", "backupStorageContainer":"'"$BackupStorageContainer"'", "cloudStoragePassword":"<OPC password>"}}'
 ```
     **Note:** Replace <OPC > with your OPC credentials
 
