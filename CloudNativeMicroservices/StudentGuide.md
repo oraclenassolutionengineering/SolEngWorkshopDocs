@@ -8,14 +8,6 @@ This hands-on lab walks you through the software development lifecycle (SDLC) fo
 
 Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
-# Watch Workshop Overview
-
-## Required Video
-
-Before completing the following assignment, please watch the video for this working by clicking on the URL (NOTE: URL WILL CHANGE BEFORE WORKSHOP):
-
-- https://launch.oracle.com/?cloudnative
-
 # Installing Eclipse
 
 ## Download and Install Eclipse
