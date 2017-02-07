@@ -209,9 +209,13 @@ We have now completed our task. To finish up this part of the lab we will want t
 
     ![](images/200/Picture200-23.png)
 
-- In the Change Progress popup click **OK**
+- In the Change Progress popup click **Next**
 
     ![](images/200/Picture200-24.png)
+
+- Set number of days to 1 and  **OK**
+
+    ![](images/200/Picture200-34.png)
 
 - Your Sprint should now look like the following:
 
