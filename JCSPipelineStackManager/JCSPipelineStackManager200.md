@@ -86,9 +86,13 @@ Now that we have the configuration code in our managed GIT repository, we need t
 
     ![](images/200/Picture200-10.png)
 
-- Click the **Source Control** tab. Click **Git** and select the **JCSStackAlphaInfrastructure.git* from the drop down.
+- Click the **Source Control** tab. Click **Git** and select **JCSStackAlphaInfrastructure.git** from the drop down. Expand **Advanced Git Settings** and enter **Alpha-JCS-DBCS-Template.yaml**
 
     ![](images/200/Picture200-11.png)
+
+- Click the **Triggers** tab. Select **Based on SCM polling schedule**.
+
+    ![](images/200/Picture200-15.png)    
 
 - Click the **Build Steps** tab. Click **Add Build Step**, and select **Execute shell**.
 
@@ -100,13 +104,124 @@ Now that we have the configuration code in our managed GIT repository, we need t
 curl --request POST \
   --user <opc username>:<opc password> \
   --url https://psm.europe.oraclecloud.com/paas/api/v1.1/instancemgmt/<OPC Identity Domain>/templates/cst/instances \
-  --header 'X-ID-TENANT-NAME: <OPC Identity Domain> \
+  --header 'X-ID-TENANT-NAME: <OPC Identity Domain>' \
   --header 'content-type: multipart/form-data' \
   --form template=@Alpha-JCS-DBCS-Template.yaml
 ```
+    **Note:** Replace <OPC > with your OPC credentials
 
     ![](images/200/Picture200-13.png)
 
 - Click **Save** to complete the configuration.
 
-- Click the **Build Now** button to start the build immediately.
+- Click the **Build Now** button to start the build. This will trigger for the build to be placed in the queue and should start shortly.
+
+    ![](images/200/Picture200-14.png)
+
+- Once the build has completed you should see a green check.  
+
+    ![](images/200/Picture200-16.png)
+
+- If you want to view the results or debug a failure click on the **Console** link.
+
+    ![](images/200/Picture200-17.png)
+
+### **STEP 4:** Verify Template Upload to Oracle Cloud
+
+- Now we will navigate to the Oracle Stack Manager console to new the newly uploaded template. Click back on the browser tab that you launched the Developer Console. Click on the far left navigation icon and select **Database**
+
+    ![](images/200/Picture200-18.png)
+
+- Click on the far left navigation icon and select **Oracle Cloud Stack**
+
+    ![](images/200/Picture200-19.png)
+
+- From this service console you are able to manage and monitor all your **Stacks** and **Templates**.
+
+    ![](images/200/Picture200-20.png)
+
+- Click on **Templates**. You should see your newly uploaded template **Alpha-JCS-DBCS-Template** along with the default templates supplied by Oracle.
+
+    ![](images/200/Picture200-21.png)
+
+- Click on **Alpha-JCS-DBCS-Template** to view details about your template. The **Topology** gives you a graphical view of the Stack.  Our template has **JCS**, **DBCS** and **Storage Cloud** (backupContainer). If you expand the **Template** section you can view the entire template file.
+
+    ![](images/200/Picture200-22.png)
+
+## Create Default Build for Stack Create
+
+### **STEP 5:** Create Stack Create Build Process
+
+Now we will create a build process that will provision a new Oracle Stack every time a change is made to a configuration file.  This File will define the need parameters to create unique environment using Oracle Stack Manager based on the newly uploaded template **Alpha-JCS-DBCS-Template**.
+
+- Back in the Developer Cloud Service, click **Build**, followed by clicking **New Job**.
+
+    ![](images/200/Picture200-26.png)
+
+- In the New Job popup enter **Infrastructure Create Stack** for the Job Name, and then click **Save**.
+
+    ![](images/200/Picture200-27.png)
+
+- You are now placed into the job configuration screen.        
+
+    ![](images/200/Picture200-28.png)
+
+- Click the **Source Control** tab. Click **Git** and select **JCSStackAlphaInfrastructure.git** from the drop down. Expand **Advanced Git Settings** and enter **JCSBuild.conf**
+
+    ![](images/200/Picture200-29.png)
+
+- Click the **Triggers** tab. Select **Based on SCM polling schedule**.
+
+    ![](images/200/Picture200-30.png)    
+
+- Click the **Build Steps** tab. Click **Add Build Step**, and select **Execute shell**.
+
+    ![](images/200/Picture200-31.png)
+
+- Enter the following REST call for the **Execute Shell Command:**
+
+    ```
+curl --request POST \
+  --user <OPC username>:<OPC password> \
+  --url https://psm.europe.oraclecloud.com/paas/api/v1.1/instancemgmt/<OPC Identity Domain>/services/stack/instances \
+  --header 'X-ID-TENANT-NAME: <OPC Identity Domain>' \
+  --header 'content-type: multipart/form-data' \
+  --form name=Alpha01 \
+  --form template=Alpha-JCS-DBCS-Template \
+  --form 'parameterValues={"commonPwd":"Alpha2014_", Storage-gse00003362/Alpha01Backup}'
+```
+    **Note:** Replace <OPC > with your OPC credentials
+
+    ![](images/200/Picture200-32.png)
+
+- Click **Save** to complete the configuration. We will not a build at this time as we want to trigger the build by updating the **JCSBuild.conf** file.
+
+    ![](images/200/Picture200-33.png)
+
+### **STEP 6:** Complete Task
+
+We have now completed our task. To finish up this part of the lab we will want to mark the Issue as completed in our Sprint.
+
+- Back in the Developer Cloud Service, click **Agile**, followed by clicking **Active Sprints**.
+
+- Drag and drop **Task 1** from **In Progress** to **Completed**.
+
+    ![](images/200/Picture200-23.png)
+
+- In the Change Progress popup click **OK**
+
+    ![](images/200/Picture200-24.png)
+
+- Your Sprint should now look like the following:
+
+    ![](images/200/Picture200-25.png)
+
+# Provision new Alpha Office Environment by modifying configuration file
+
+##  Clone Project to Eclipse IDE
+
+### **STEP 6:** Load Eclipse IDE
+
+- Right Click and select **Run** on the **Eclipse** Desktop Icon
+
+    ![](images/200/Picture200-1.png)
