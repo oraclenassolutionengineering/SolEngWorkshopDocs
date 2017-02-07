@@ -80,7 +80,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
     ![](images/300/image011.png)  
 
-- Click on **Agile** in navigation panel.
+- Click on **Agile** on the navigation panel.
 
     ![](images/300/image012.png)  
 
@@ -104,7 +104,7 @@ As in the previous lab, we could start coding this application from scratch at t
 
     ![](images/300/image016.png)  
 
-- Click on **Project**.
+- Click on **Project** on the navigation panel.
 
 - Click on **New Repository** to create a new Git Repository
 
@@ -130,11 +130,11 @@ As in the previous lab, we could start coding this application from scratch at t
 
 Now that we have the source code in our managed GIT repository, we need to create a build process that will be triggered whenever a commit is made to the master branch. We will set up a shell script build process in this section.
 
-- Click **Build** to access the build page and click **New Job**.
+- Click **Build** on the navigation panel to access the build page and click **New Job**.
 
     ![](images/300/image020.png)  
 
-- In the New Job popup enter **Twitter Marketing UI Build** for Job Name and click **Save**.
+- In the New Job popup enter `Twitter Marketing UI Build` for Job Name and click **Save**.
 
     ![](images/300/image021.png)  
 
@@ -266,7 +266,7 @@ We have now verified that our application has been deployed and is functional. T
 
     ![](images/300/image047.png)  
 
-- In the Change Progress popup click **OK**
+- In the Change Progress popup click **Next** and then **OK**
 
     ![](images/300/image048.png)  
 
@@ -432,7 +432,7 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojtable'], function (oj, ko) {
 
     ![](images/300/image066.png)  
 
-- Replace existing URL with your URL for the **root variable**. You must **append** a '`/`' (backslash) to the **end of the URL**.
+- Replace existing URL with your URL for the **root variable**. Make sure there is a '`/`' (backslash) at the **end of the URL**.
 
     ![](images/300/image067.png)  
 
@@ -492,13 +492,13 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojtable'], function (oj, ko) {
 
 ### **STEP 19**: Complete the Display Twitter Feed Task
 
-- Back in the Developer Cloud Service window, click **Agile**, followed by clicking **Active Sprints**.
+- Back in the Developer Cloud Service window, click **Agile**, followed by clicking **Active Sprints**.  Make Sure you are viewing the **Microservices** board.
 
 - Drag and drop **Feature 4** from **In Progress** to **Verify Code**.
 
     ![](images/300/image082.png)
 
-- In the Change Progress popup click **OK**.
+- In the Change Progress popup click **Next** and then **OK**.
 
     ![](images/300/image083.png)
 
@@ -510,7 +510,7 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojtable'], function (oj, ko) {
 
     ![](images/300/image084.png)
 
-- Now that John Dunbar has completed the task of displaying twitter feed in table format, a Merge Request can be created by John and assigned to Lisa Jones. Click on **Merge Requests**, and then click on the **New Request button**.
+- Now that John Dunbar has completed the task of displaying twitter feed in table format, a Merge Request can be created by John and assigned to Lisa Jones. Click on **Merge Requests**, and then click on the **New Merge Request button**.
 
     ![](images/300/image085.png)
 
@@ -601,7 +601,7 @@ In the following steps “Lisa” will merge the branch created by “John” in
 
 ## Test the JETFrontEndAPP UI in the Cloud
 
-### **STEP 23**: Merge Requests
+### **STEP 23**: Test the Front End
 
 - Once the service has successfully deployed, click on the **JETFrontEndApp** link
 
@@ -619,7 +619,7 @@ In the following steps “Lisa” will merge the branch created by “John” in
 
     ![](images/300/image104.png)
 
-- Set the Status to **VERIFIED – FIXED** and click **OK**
+- Set the Status to **VERIFIED – FIXED** and click **Next and then **OK**
 
     ![](images/300/image105.png)
 
