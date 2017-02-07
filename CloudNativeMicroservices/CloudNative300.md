@@ -619,7 +619,7 @@ In the following steps “Lisa” will merge the branch created by “John” in
 
     ![](images/300/image104.png)
 
-- Set the Status to **VERIFIED – FIXED** and click **Next and then **OK**
+- Set the Status to **VERIFIED – FIXED** and click **Next** and then **OK**
 
     ![](images/300/image105.png)
 
