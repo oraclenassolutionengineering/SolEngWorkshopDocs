@@ -41,7 +41,6 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
 - Click on the **Sprint** report.
 
-    ![](images/400/image004.png)
 
 ### **STEP 2**: Complete the Sprint
 
