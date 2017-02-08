@@ -283,6 +283,24 @@ We have now completed our task. To finish up this part of the lab we will want t
 
     ![](images/200/Picture200-45.png)
 
+### **STEP 10:** Set Task 2 Status to In Progress
+
+In the previous steps we updated the status of the Tasks using the web interface to the Developer Cloud Service. In this step we will use the Eclipse connection to the Developer Cloud Service to update the status of the tasks.
+
+- Within the Oracle Cloud Connection tab, double click the **Issues** to expand, then double click on **Mine** to expand your list. Once you see the list of your Issues, then double click on **Provision new Alpha Office Environment**.
+
+    ![](images/200/Picture200-55.png)
+
+- Scroll down to the bottom of the **Provision new Alpha Office Environment** window. In the **Actions section**, and change the Actions to **Accept (change status to ASSIGNED)**, then click on **Submit**.
+
+    ![](images/200/Picture200-56.png)
+
+- Optionally, if you return to the Developer Cloud Service web interface, you’ll see that the Eclipse interface caused the **Task 2** to be moved to the **In Progress** column of the **Agile > Active Sprints**.
+
+    ![](images/200/Picture200-57.png)
+
+### **STEP 11:** Modify Configuration File
+
 - Expand the project and double click on **JCSBuild.conf** to open
 
     ![](images/200/Picture200-46.png)
@@ -294,3 +312,49 @@ We have now completed our task. To finish up this part of the lab we will want t
     **BackupStroageContainer=Storage-<OPC identity Domain>/Alpha02Backup**
 
     ![](images/200/Picture200-47.png)
+
+##  Commit Code
+
+### **STEP 12:** Commit Code
+
+- Right click on **JCSStackAlphaInfrastructure** and then Select **Team > Commit**
+
+    ![](images/200/Picture200-48.png)
+
+- Enter **Provision Stack Alpha02** in the Commit Message box and click **Commit and Push**.
+
+    ![](images/200/Picture200-49.png)
+
+- Click **OK** on the Push Result dialog
+
+    ![](images/200/Picture200-50.png)
+
+##  Verify Provisioning
+
+### **STEP 13:** Verify Build job ran
+
+- Click **Code** on left hand navigation then click **Commits**. Notice that the file has been committed to the Git repository.
+
+    ![](images/200/Picture200-51.png)
+
+- Click **Build** on left hand navigation. You should now see that the **Infrastructure Create Stack** build has completed.
+
+    ![](images/200/Picture200-52.png)
+
+### **STEP 14:** Monitor in Oracle Cloud
+
+- Switch back to browser tab with **Oracle Stack Manager**.  Click on **Stack** and you should see that Alpha02 is creating.
+
+    ![](images/200/Picture200-53.png)
+
+- Click on **Alpha02** to view details.
+
+    ![](images/200/Picture200-54.png)
+
+### **STEP 15:** Set Task 2 Status to In Progress
+
+- From either Eclipse or Developer Cloud Service console update the status of **Task 2** to **Completed**. You sprint should now look like the following.
+
+![](images/200/Picture200-58.png)
+
+- You have completed Lab 200. For the next lab we will use an already provisioned environment.
