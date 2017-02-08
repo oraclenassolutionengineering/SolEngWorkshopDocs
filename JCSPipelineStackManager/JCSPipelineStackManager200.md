@@ -275,4 +275,22 @@ We have now completed our task. To finish up this part of the lab we will want t
 
     ![](images/200/Picture200-43.png)
 
-- Right Click on the TwitterFeedMicroservice cloned repository and click on Import Projects.
+- **Right Click** on the **JCSStackAlphaInfrastructure** cloned repository and click on **Import Projects**.
+
+    ![](images/200/Picture200-44.png)
+
+- Accept the Import defaults, and **click** on **Finish**
+
+    ![](images/200/Picture200-45.png)
+
+- Expand the project and double click on **JCSBuild.conf** to open
+
+    ![](images/200/Picture200-46.png)
+
+- Modify the values as defined below and click **Save All**
+
+    **ServiceName=Alpha02**
+
+    **BackupStroageContainer=Storage-<OPC identity Domain>/Alpha02Backup**
+
+    ![](images/200/Picture200-47.png)
