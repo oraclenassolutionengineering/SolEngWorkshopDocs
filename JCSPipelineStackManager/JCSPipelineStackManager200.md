@@ -225,8 +225,54 @@ We have now completed our task. To finish up this part of the lab we will want t
 
 ##  Clone Project to Eclipse IDE
 
-### **STEP 6:** Load Eclipse IDE
+### **STEP 7:** Load Eclipse IDE
 
 - Right Click and select **Run** on the **Eclipse** Desktop Icon
 
-    ![](images/200/Picture200-1.png)
+    ![](images/200/Picture200-35.png)
+
+### **STEP 8:** Create connection to Oracle Developer Cloud Service    
+
+- We will now create a connection to the Developer Cloud Service. To do this, first click on the menu options **Window -> Show View ->Other**
+
+    ![](images/200/Picture200-36.png)
+
+- Enter **oracle** in the search field. Select **Oracle Cloud**, and click on **OK**.
+
+    ![](images/200/Picture200-37.png)
+
+- Click on **Connect** in the Oracle Cloud tab
+
+    ![](images/200/Picture200-38.png)
+
+- Enter the following information and click **Finish**
+
+    **Identity Domain:** `<your identity domain>`
+
+    **User name:** `<your identity domain username>`
+
+    **Password:** `<your identity domain password>`
+
+    **Connection Name:** `OracleConnection`
+
+    ![](images/200/Picture200-39.png)
+
+- If prompted, enter and confirm a Master Password for the Eclipse Secure Storage. In our example we use the **password** of **oracle**. Next, press **OK**.
+
+    ![](images/200/Picture200-40.png)
+
+- If prompted to enter a Password Hint, click on **No**
+
+    ![](images/200/Picture200-41.png)
+
+### **STEP 9:** Create a local clone of the repository
+
+- Expand **Developer**, and then double click on **Alpha Office Product Catalog** to activate the project.
+
+    ![](images/200/Picture200-42.png)
+
+- **Expand** the **Code**, and double click on the **Git Repo [JCSStackAlphaInfrastructure.git]**, to cause the Repo to be cloned locally.
+
+    ![](images/200/Picture200-43.png)
+
+- Right Click on the TwitterFeedMicroservice cloned repository and click on Import Projects.
